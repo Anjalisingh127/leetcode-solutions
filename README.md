@@ -16,8 +16,6 @@ For problems where multiple approaches are useful, I work through:
 
 ## Topics
 
-Solutions may cover:
-
 - Arrays & Strings
 - Hashing
 - Two Pointers
@@ -34,20 +32,7 @@ Solutions may cover:
 
 ## Language
 
-**Primary:** Java
-
-Other languages may be used when useful for learning or comparison.
-
-## Repository Structure
-
-Solutions synchronized from LeetCode are organized by problem. The exact structure may evolve as the repository grows.
-
-```text
-leetcode-solutions/
-├── problem-name/
-│   └── solution.java
-└── README.md
-```
+**Primary Language:** Java
 
 ## Problem-Solving Approach
 
@@ -55,11 +40,15 @@ For each problem, I try to answer four questions:
 
 1. What is the simplest correct solution?
 2. What is the bottleneck in that approach?
-3. Which data structure or algorithm can remove that bottleneck?
+3. Which data structure or algorithm can improve it?
 4. What are the final time and space complexities?
 
-This repository is intended to reflect consistent practice and improvement in algorithmic problem solving.
+## Repository Structure
 
----
+Solutions are organized by LeetCode problem as the repository grows.
 
-*Solutions are added as I continue practicing LeetCode and preparing for software engineering interviews.*
+```text
+leetcode-solutions/
+├── problem-name/
+│   └── solution.java
+└── README.md
