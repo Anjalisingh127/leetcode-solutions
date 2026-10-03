@@ -82,6 +82,7 @@ leetcode-solutions/
 | [0179-largest-number](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0179-largest-number/) | Medium |
 | [0205-isomorphic-strings](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0205-isomorphic-strings/) | Easy |
 | [0392-is-subsequence](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0392-is-subsequence/) | Easy |
+| [1021-remove-outermost-parentheses](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/1021-remove-outermost-parentheses/) | Easy |
 ## Greedy
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -138,6 +139,7 @@ leetcode-solutions/
 | ------- | ------- |
 | [0155-min-stack](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0155-min-stack/) | Medium |
 | [0907-sum-of-subarray-minimums](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0907-sum-of-subarray-minimums/) | Medium |
+| [1021-remove-outermost-parentheses](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/1021-remove-outermost-parentheses/) | Easy |
 ## Design
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -146,4 +148,8 @@ leetcode-solutions/
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0907-sum-of-subarray-minimums](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0907-sum-of-subarray-minimums/) | Medium |
+## Bracket Sequences
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [1021-remove-outermost-parentheses](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/1021-remove-outermost-parentheses/) | Easy |
 <!---LeetCode Topics End-->
