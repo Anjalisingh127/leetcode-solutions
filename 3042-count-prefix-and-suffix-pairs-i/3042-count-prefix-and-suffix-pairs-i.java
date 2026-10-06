@@ -1,20 +1,42 @@
 class Solution {
+
+    static class TrieNode {
+        TrieNode[] children = new TrieNode[26 * 26];
+        int count = 0;
+    }
+
     public int countPrefixSuffixPairs(String[] words) {
 
-        int count = 0;
+        TrieNode root = new TrieNode();
+        int answer = 0;
 
-        for (int i = 0; i < words.length; i++) {
+        for (String word : words) {
 
-            for (int j = i + 1; j < words.length; j++) {
+            TrieNode node = root;
+            int n = word.length();
 
-                if (words[j].startsWith(words[i]) &&
-                    words[j].endsWith(words[i])) {
+            for (int i = 0; i < n; i++) {
 
-                    count++;
+                char left = word.charAt(i);
+                char right = word.charAt(n - 1 - i);
+
+                int index = (left - 'a') * 26
+                          + (right - 'a');
+
+                if (node.children[index] == null) {
+                    node.children[index] = new TrieNode();
                 }
+
+                node = node.children[index];
+
+                // Previously inserted word ends here
+                answer += node.count;
             }
+
+            // Mark this complete word
+            node.count++;
         }
 
-        return count;
+        return answer;
     }
 }
