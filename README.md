@@ -67,6 +67,7 @@ leetcode-solutions/
 | [0523-continuous-subarray-sum](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0523-continuous-subarray-sum/) | Medium |
 | [0560-subarray-sum-equals-k](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0560-subarray-sum-equals-k/) | Medium |
 | [0705-design-hashset](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0705-design-hashset/) | Easy |
+| [0706-design-hashmap](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0706-design-hashmap/) | Easy |
 | [0907-sum-of-subarray-minimums](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0907-sum-of-subarray-minimums/) | Medium |
 ## Hash Table
 | Problem Name | Difficulty |
@@ -77,6 +78,7 @@ leetcode-solutions/
 | [0523-continuous-subarray-sum](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0523-continuous-subarray-sum/) | Medium |
 | [0560-subarray-sum-equals-k](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0560-subarray-sum-equals-k/) | Medium |
 | [0705-design-hashset](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0705-design-hashset/) | Easy |
+| [0706-design-hashmap](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0706-design-hashmap/) | Easy |
 ## Union-Find
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -159,6 +161,7 @@ leetcode-solutions/
 | ------- | ------- |
 | [0155-min-stack](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0155-min-stack/) | Medium |
 | [0705-design-hashset](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0705-design-hashset/) | Easy |
+| [0706-design-hashmap](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0706-design-hashmap/) | Easy |
 ## Monotonic Stack
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -209,8 +212,10 @@ leetcode-solutions/
 | ------- | ------- |
 | [0572-subtree-of-another-tree](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0572-subtree-of-another-tree/) | Easy |
 | [0705-design-hashset](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0705-design-hashset/) | Easy |
+| [0706-design-hashmap](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0706-design-hashmap/) | Easy |
 ## Linked List
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0705-design-hashset](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0705-design-hashset/) | Easy |
+| [0706-design-hashmap](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0706-design-hashmap/) | Easy |
 <!---LeetCode Topics End-->
