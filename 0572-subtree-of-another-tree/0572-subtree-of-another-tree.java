@@ -17,33 +17,26 @@
 class Solution {
 
     public boolean isSubtree(TreeNode root, TreeNode subRoot) {
-        if (root == null) {
-            return false;
-        }
 
-        if (isSameTree(root, subRoot)) {
-            return true;
-        }
+        StringBuilder rootString = new StringBuilder();
+        StringBuilder subString = new StringBuilder();
 
-        return isSubtree(root.left, subRoot) ||
-               isSubtree(root.right, subRoot);
+        serialize(root, rootString);
+        serialize(subRoot, subString);
+
+        return rootString.toString().contains(subString.toString());
     }
 
-    private boolean isSameTree(TreeNode root, TreeNode subRoot) {
+    private void serialize(TreeNode node, StringBuilder sb) {
 
-        if (root == null && subRoot == null) {
-            return true;
+        if (node == null) {
+            sb.append(",#");
+            return;
         }
 
-        if (root == null || subRoot == null) {
-            return false;
-        }
+        sb.append(",").append(node.val);
 
-        if (root.val != subRoot.val) {
-            return false;
-        }
-
-        return isSameTree(root.left, subRoot.left) &&
-               isSameTree(root.right, subRoot.right);
+        serialize(node.left, sb);
+        serialize(node.right, sb);
     }
 }
