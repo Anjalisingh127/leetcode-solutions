@@ -1,46 +1,26 @@
-import java.util.ArrayList;
+import java.util.Arrays;
 
 class MyHashMap {
 
-    private ArrayList<int[]> list;
+    private int[] map;
 
     public MyHashMap() {
-        list = new ArrayList<>();
+        map = new int[1000001];
+
+        // -1 means key doesn't exist
+        Arrays.fill(map, -1);
     }
 
     public void put(int key, int value) {
-
-        // Check if key already exists
-        for (int[] pair : list) {
-            if (pair[0] == key) {
-                pair[1] = value;   // update value
-                return;
-            }
-        }
-
-        // Key doesn't exist → add new pair
-        list.add(new int[]{key, value});
+        map[key] = value;
     }
 
     public int get(int key) {
-
-        for (int[] pair : list) {
-            if (pair[0] == key) {
-                return pair[1];
-            }
-        }
-
-        return -1;
+        return map[key];
     }
 
     public void remove(int key) {
-
-        for (int i = 0; i < list.size(); i++) {
-            if (list.get(i)[0] == key) {
-                list.remove(i);
-                return;
-            }
-        }
+        map[key] = -1;
     }
 }
 
