@@ -15,33 +15,36 @@
  */
 
 
+
 class BSTIterator {
-    List<Integer> list;
-    int index;
+    Stack<TreeNode> stack;
 
     public BSTIterator(TreeNode root) {
-        list = new ArrayList<>();
-        index = 0;
-
-        inorder(root);
+        stack = new Stack<>();
+        pushAllLeft(root);
     }
 
-    private void inorder(TreeNode root) {
-        if (root == null) return;
-
-        inorder(root.left);
-        list.add(root.val);
-        inorder(root.right);
+    private void pushAllLeft(TreeNode node) {
+        while (node != null) {
+            stack.push(node);
+            node = node.left;
+        }
     }
 
     public int next() {
-        return list.get(index++);
+        TreeNode node = stack.pop();
+
+        // Process right subtree
+        pushAllLeft(node.right);
+
+        return node.val;
     }
 
     public boolean hasNext() {
-        return index < list.size();
+        return !stack.isEmpty();
     }
 }
+
 
 /**
  * Your BSTIterator object will be instantiated and called as such:
