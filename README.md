@@ -168,12 +168,14 @@ leetcode-solutions/
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0114-flatten-binary-tree-to-linked-list/) | Medium |
 | [0144-binary-tree-preorder-traversal](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0144-binary-tree-preorder-traversal/) | Easy |
 | [0155-min-stack](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0155-min-stack/) | Medium |
+| [0173-binary-search-tree-iterator](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0173-binary-search-tree-iterator/) | Medium |
 | [0907-sum-of-subarray-minimums](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0907-sum-of-subarray-minimums/) | Medium |
 | [1021-remove-outermost-parentheses](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/1021-remove-outermost-parentheses/) | Easy |
 ## Design
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0155-min-stack](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0155-min-stack/) | Medium |
+| [0173-binary-search-tree-iterator](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0173-binary-search-tree-iterator/) | Medium |
 | [0705-design-hashset](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0705-design-hashset/) | Easy |
 | [0706-design-hashmap](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0706-design-hashmap/) | Easy |
 ## Monotonic Stack
@@ -212,6 +214,7 @@ leetcode-solutions/
 | [0094-binary-tree-inorder-traversal](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0094-binary-tree-inorder-traversal/) | Easy |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0114-flatten-binary-tree-to-linked-list/) | Medium |
 | [0144-binary-tree-preorder-traversal](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0144-binary-tree-preorder-traversal/) | Easy |
+| [0173-binary-search-tree-iterator](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0173-binary-search-tree-iterator/) | Medium |
 | [0572-subtree-of-another-tree](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0572-subtree-of-another-tree/) | Easy |
 ## Depth-First Search
 | Problem Name | Difficulty |
@@ -232,6 +235,7 @@ leetcode-solutions/
 | [0094-binary-tree-inorder-traversal](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0094-binary-tree-inorder-traversal/) | Easy |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0114-flatten-binary-tree-to-linked-list/) | Medium |
 | [0144-binary-tree-preorder-traversal](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0144-binary-tree-preorder-traversal/) | Easy |
+| [0173-binary-search-tree-iterator](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0173-binary-search-tree-iterator/) | Medium |
 | [0572-subtree-of-another-tree](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0572-subtree-of-another-tree/) | Easy |
 ## Hash Function
 | Problem Name | Difficulty |
@@ -266,4 +270,12 @@ leetcode-solutions/
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0017-letter-combinations-of-a-phone-number/) | Medium |
+## Binary Search Tree
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0173-binary-search-tree-iterator](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0173-binary-search-tree-iterator/) | Medium |
+## Iterator
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0173-binary-search-tree-iterator](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0173-binary-search-tree-iterator/) | Medium |
 <!---LeetCode Topics End-->
