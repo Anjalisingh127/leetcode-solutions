@@ -17,30 +17,23 @@
 
 class Solution {
     public void flatten(TreeNode root) {
-        if (root == null) return;
+        TreeNode curr = root;
 
-        List<TreeNode> list = new ArrayList<>();
+        while (curr != null) {
+            if (curr.left != null) {
+                TreeNode prev = curr.left;
 
-        preorder(root, list);
+                while (prev.right != null) {
+                    prev = prev.right;
+                }
 
-        for (int i = 0; i < list.size() - 1; i++) {
-            TreeNode curr = list.get(i);
-            TreeNode next = list.get(i + 1);
+                prev.right = curr.right;
+                
+                curr.right = curr.left;
+                curr.left = null;
+            }
 
-            curr.left = null;
-            curr.right = next;
+            curr = curr.right;
         }
-
-        TreeNode last = list.get(list.size() - 1);
-        last.left = null;
-        last.right = null;
-    }
-
-    private void preorder(TreeNode root, List<TreeNode> list) {
-        if (root == null) return;
-
-        list.add(root);
-        preorder(root.left, list);
-        preorder(root.right, list);
     }
 }
