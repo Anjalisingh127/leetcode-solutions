@@ -15,16 +15,14 @@
  */
 
 
-
 class BSTIterator {
-    Stack<TreeNode> stack;
+    private Deque<TreeNode> stack = new ArrayDeque<>();
 
     public BSTIterator(TreeNode root) {
-        stack = new Stack<>();
-        pushAllLeft(root);
+        pushLeft(root);
     }
 
-    private void pushAllLeft(TreeNode node) {
+    private void pushLeft(TreeNode node) {
         while (node != null) {
             stack.push(node);
             node = node.left;
@@ -34,8 +32,9 @@ class BSTIterator {
     public int next() {
         TreeNode node = stack.pop();
 
-        // Process right subtree
-        pushAllLeft(node.right);
+        if (node.right != null) {
+            pushLeft(node.right);
+        }
 
         return node.val;
     }
