@@ -9,36 +9,35 @@
  * }
  */
 
+
 class Solution {
     public void reorderList(ListNode head) {
         if (head == null || head.next == null) {
             return;
         }
 
-        List<ListNode> list = new ArrayList<>();
+        ArrayList<ListNode> arr = new ArrayList<>();
 
         ListNode temp = head;
 
         while (temp != null) {
-            list.add(temp);
+            arr.add(temp);
             temp = temp.next;
         }
 
         int i = 0;
-        int j = list.size() - 1;
+        int j = arr.size() - 1;
 
         while (i < j) {
-            list.get(i).next = list.get(j);
+            arr.get(i).next = arr.get(j);
             i++;
 
-            if (i == j) {
-                break;
-            }
+            if (i == j) break;
 
-            list.get(j).next = list.get(i);
+            arr.get(j).next = arr.get(i);
             j--;
         }
 
-        list.get(i).next = null;
+        arr.get(i).next = null;
     }
 }
