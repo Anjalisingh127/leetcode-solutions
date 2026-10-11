@@ -170,6 +170,7 @@ leetcode-solutions/
 | [0145-binary-tree-postorder-traversal](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0145-binary-tree-postorder-traversal/) | Easy |
 | [0155-min-stack](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0155-min-stack/) | Medium |
 | [0173-binary-search-tree-iterator](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0173-binary-search-tree-iterator/) | Medium |
+| [0225-implement-stack-using-queues](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0225-implement-stack-using-queues/) | Easy |
 | [0907-sum-of-subarray-minimums](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0907-sum-of-subarray-minimums/) | Medium |
 | [1021-remove-outermost-parentheses](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/1021-remove-outermost-parentheses/) | Easy |
 ## Design
@@ -177,6 +178,7 @@ leetcode-solutions/
 | ------- | ------- |
 | [0155-min-stack](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0155-min-stack/) | Medium |
 | [0173-binary-search-tree-iterator](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0173-binary-search-tree-iterator/) | Medium |
+| [0225-implement-stack-using-queues](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0225-implement-stack-using-queues/) | Easy |
 | [0705-design-hashset](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0705-design-hashset/) | Easy |
 | [0706-design-hashmap](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0706-design-hashmap/) | Easy |
 ## Monotonic Stack
@@ -282,4 +284,8 @@ leetcode-solutions/
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0173-binary-search-tree-iterator](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0173-binary-search-tree-iterator/) | Medium |
+## Queue
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0225-implement-stack-using-queues](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0225-implement-stack-using-queues/) | Easy |
 <!---LeetCode Topics End-->
