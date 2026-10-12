@@ -94,6 +94,7 @@ leetcode-solutions/
 | ------- | ------- |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0017-letter-combinations-of-a-phone-number/) | Medium |
 | [0049-group-anagrams](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0049-group-anagrams/) | Medium |
+| [0071-simplify-path](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0071-simplify-path/) | Medium |
 | [0151-reverse-words-in-a-string](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0151-reverse-words-in-a-string/) | Medium |
 | [0179-largest-number](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0179-largest-number/) | Medium |
 | [0205-isomorphic-strings](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0205-isomorphic-strings/) | Easy |
@@ -166,6 +167,7 @@ leetcode-solutions/
 ## Stack
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0071-simplify-path](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0071-simplify-path/) | Medium |
 | [0094-binary-tree-inorder-traversal](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0094-binary-tree-inorder-traversal/) | Easy |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0114-flatten-binary-tree-to-linked-list/) | Medium |
 | [0143-reorder-list](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0143-reorder-list/) | Medium |
