@@ -1,19 +1,27 @@
 
 class Solution {
     public String makeGood(String s) {
-        StringBuilder stack = new StringBuilder();
 
-        for (char ch : s.toCharArray()) {
-            int n = stack.length();
+        StringBuilder str = new StringBuilder(s);
 
-            if (n > 0 &&
-                Math.abs(stack.charAt(n - 1) - ch) == 32) {
-                stack.deleteCharAt(n - 1);
-            } else {
-                stack.append(ch);
+        boolean changed = true;
+
+        while (changed) {
+            changed = false;
+
+            for (int i = 0; i < str.length() - 1; i++) {
+
+                char a = str.charAt(i);
+                char b = str.charAt(i + 1);
+
+                if (Math.abs(a - b) == 32) {
+                    str.delete(i, i + 2);
+                    changed = true;
+                    break;
+                }
             }
         }
 
-        return stack.toString();
+        return str.toString();
     }
 }
