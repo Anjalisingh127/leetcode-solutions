@@ -1,8 +1,10 @@
+import java.util.Stack;
+
 class Solution {
     public String simplifyPath(String path) {
 
+        Stack<String> stack = new Stack<>();
         String[] parts = path.split("/");
-        String result = "";
 
         for (String part : parts) {
 
@@ -11,22 +13,22 @@ class Solution {
             }
 
             else if (part.equals("..")) {
-                int lastSlash = result.lastIndexOf("/");
-
-                if (lastSlash >= 0) {
-                    result = result.substring(0, lastSlash);
+                if (!stack.isEmpty()) {
+                    stack.pop();
                 }
             }
 
             else {
-                result = result + "/" + part;
+                stack.push(part);
             }
         }
 
-        if (result.equals("")) {
-            return "/";
+        StringBuilder result = new StringBuilder();
+
+        for (String directory : stack) {
+            result.append("/").append(directory);
         }
 
-        return result;
+        return result.length() == 0 ? "/" : result.toString();
     }
 }
