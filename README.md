@@ -99,6 +99,7 @@ leetcode-solutions/
 | [0205-isomorphic-strings](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0205-isomorphic-strings/) | Easy |
 | [0392-is-subsequence](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0392-is-subsequence/) | Easy |
 | [1021-remove-outermost-parentheses](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/1021-remove-outermost-parentheses/) | Easy |
+| [1544-make-the-string-great](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/1544-make-the-string-great/) | Easy |
 | [3042-count-prefix-and-suffix-pairs-i](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/3042-count-prefix-and-suffix-pairs-i/) | Easy |
 ## Greedy
 | Problem Name | Difficulty |
@@ -175,6 +176,7 @@ leetcode-solutions/
 | [0225-implement-stack-using-queues](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0225-implement-stack-using-queues/) | Easy |
 | [0907-sum-of-subarray-minimums](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0907-sum-of-subarray-minimums/) | Medium |
 | [1021-remove-outermost-parentheses](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/1021-remove-outermost-parentheses/) | Easy |
+| [1544-make-the-string-great](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/1544-make-the-string-great/) | Easy |
 ## Design
 | Problem Name | Difficulty |
 | ------- | ------- |
