@@ -101,6 +101,7 @@ leetcode-solutions/
 | [0205-isomorphic-strings](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0205-isomorphic-strings/) | Easy |
 | [0316-remove-duplicate-letters](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0316-remove-duplicate-letters/) | Medium |
 | [0392-is-subsequence](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0392-is-subsequence/) | Easy |
+| [0402-remove-k-digits](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0402-remove-k-digits/) | Medium |
 | [1021-remove-outermost-parentheses](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/1021-remove-outermost-parentheses/) | Easy |
 | [1544-make-the-string-great](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/1544-make-the-string-great/) | Easy |
 | [3042-count-prefix-and-suffix-pairs-i](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/3042-count-prefix-and-suffix-pairs-i/) | Easy |
@@ -109,6 +110,7 @@ leetcode-solutions/
 | ------- | ------- |
 | [0179-largest-number](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0179-largest-number/) | Medium |
 | [0316-remove-duplicate-letters](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0316-remove-duplicate-letters/) | Medium |
+| [0402-remove-k-digits](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0402-remove-k-digits/) | Medium |
 ## Sorting
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -182,6 +184,7 @@ leetcode-solutions/
 | [0173-binary-search-tree-iterator](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0173-binary-search-tree-iterator/) | Medium |
 | [0225-implement-stack-using-queues](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0225-implement-stack-using-queues/) | Easy |
 | [0316-remove-duplicate-letters](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0316-remove-duplicate-letters/) | Medium |
+| [0402-remove-k-digits](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0402-remove-k-digits/) | Medium |
 | [0907-sum-of-subarray-minimums](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0907-sum-of-subarray-minimums/) | Medium |
 | [1021-remove-outermost-parentheses](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/1021-remove-outermost-parentheses/) | Easy |
 | [1544-make-the-string-great](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/1544-make-the-string-great/) | Easy |
@@ -197,6 +200,7 @@ leetcode-solutions/
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0316-remove-duplicate-letters](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0316-remove-duplicate-letters/) | Medium |
+| [0402-remove-k-digits](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0402-remove-k-digits/) | Medium |
 | [0907-sum-of-subarray-minimums](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0907-sum-of-subarray-minimums/) | Medium |
 ## Bracket Sequences
 | Problem Name | Difficulty |
