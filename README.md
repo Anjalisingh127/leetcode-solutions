@@ -100,6 +100,7 @@ leetcode-solutions/
 | [0151-reverse-words-in-a-string](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0151-reverse-words-in-a-string/) | Medium |
 | [0179-largest-number](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0179-largest-number/) | Medium |
 | [0205-isomorphic-strings](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0205-isomorphic-strings/) | Easy |
+| [0241-different-ways-to-add-parentheses](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0241-different-ways-to-add-parentheses/) | Medium |
 | [0316-remove-duplicate-letters](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0316-remove-duplicate-letters/) | Medium |
 | [0392-is-subsequence](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0392-is-subsequence/) | Easy |
 | [0402-remove-k-digits](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0402-remove-k-digits/) | Medium |
@@ -134,6 +135,7 @@ leetcode-solutions/
 | ------- | ------- |
 | [0022-generate-parentheses](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0022-generate-parentheses/) | Medium |
 | [0032-longest-valid-parentheses](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0032-longest-valid-parentheses/) | Hard |
+| [0241-different-ways-to-add-parentheses](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0241-different-ways-to-add-parentheses/) | Medium |
 | [0392-is-subsequence](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0392-is-subsequence/) | Easy |
 | [0718-maximum-length-of-repeated-subarray](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0718-maximum-length-of-repeated-subarray/) | Medium |
 | [0907-sum-of-subarray-minimums](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0907-sum-of-subarray-minimums/) | Medium |
@@ -160,6 +162,7 @@ leetcode-solutions/
 ## Math
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0241-different-ways-to-add-parentheses](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0241-different-ways-to-add-parentheses/) | Medium |
 | [0523-continuous-subarray-sum](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0523-continuous-subarray-sum/) | Medium |
 | [0633-sum-of-square-numbers](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0633-sum-of-square-numbers/) | Medium |
 ## Prefix Sum
@@ -209,6 +212,7 @@ leetcode-solutions/
 | ------- | ------- |
 | [0022-generate-parentheses](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0022-generate-parentheses/) | Medium |
 | [0032-longest-valid-parentheses](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0032-longest-valid-parentheses/) | Hard |
+| [0241-different-ways-to-add-parentheses](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0241-different-ways-to-add-parentheses/) | Medium |
 | [1021-remove-outermost-parentheses](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/1021-remove-outermost-parentheses/) | Easy |
 ## Quicksort
 | Problem Name | Difficulty |
@@ -315,4 +319,9 @@ leetcode-solutions/
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0143-reorder-list](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0143-reorder-list/) | Medium |
+| [0241-different-ways-to-add-parentheses](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0241-different-ways-to-add-parentheses/) | Medium |
+## Memoization
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0241-different-ways-to-add-parentheses](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0241-different-ways-to-add-parentheses/) | Medium |
 <!---LeetCode Topics End-->
