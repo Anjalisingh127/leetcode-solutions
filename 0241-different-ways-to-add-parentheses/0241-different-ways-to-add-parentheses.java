@@ -1,13 +1,19 @@
 import java.util.*;
 
 class Solution {
+    Map<String, List<Integer>> memo = new HashMap<>();
+
     public List<Integer> diffWaysToCompute(String expression) {
+        if (memo.containsKey(expression)) {
+            return memo.get(expression);
+        }
+
         List<Integer> result = new ArrayList<>();
 
         for (int i = 0; i < expression.length(); i++) {
-            char ch = expression.charAt(i);
+            char operator = expression.charAt(i);
 
-            if (ch == '+' || ch == '-' || ch == '*') {
+            if (operator == '+' || operator == '-' || operator == '*') {
                 String left = expression.substring(0, i);
                 String right = expression.substring(i + 1);
 
@@ -16,9 +22,9 @@ class Solution {
 
                 for (int a : leftResults) {
                     for (int b : rightResults) {
-                        if (ch == '+') {
+                        if (operator == '+') {
                             result.add(a + b);
-                        } else if (ch == '-') {
+                        } else if (operator == '-') {
                             result.add(a - b);
                         } else {
                             result.add(a * b);
@@ -28,10 +34,12 @@ class Solution {
             }
         }
 
+        // If there is no operator, the expression is a number.
         if (result.isEmpty()) {
             result.add(Integer.parseInt(expression));
         }
 
+        memo.put(expression, result);
         return result;
     }
 }
