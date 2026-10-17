@@ -1,6 +1,9 @@
+import java.util.Arrays;
+import java.util.Comparator;
+
 class Solution {
     public int findLUSlength(String[] strs) {
-        int max = -1;
+        Arrays.sort(strs, Comparator.comparingInt(String::length).reversed());
 
         for (int i = 0; i < strs.length; i++) {
             boolean uncommon = true;
@@ -13,11 +16,11 @@ class Solution {
             }
 
             if (uncommon) {
-                max = Math.max(max, strs[i].length());
+                return strs[i].length();
             }
         }
 
-        return max;
+        return -1;
     }
 
     private boolean isSubsequence(String a, String b) {
