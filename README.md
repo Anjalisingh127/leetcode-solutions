@@ -83,6 +83,7 @@ leetcode-solutions/
 | [0017-letter-combinations-of-a-phone-number](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0017-letter-combinations-of-a-phone-number/) | Medium |
 | [0049-group-anagrams](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0049-group-anagrams/) | Medium |
 | [0128-longest-consecutive-sequence](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0128-longest-consecutive-sequence/) | Medium |
+| [0187-repeated-dna-sequences](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0187-repeated-dna-sequences/) | Medium |
 | [0205-isomorphic-strings](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0205-isomorphic-strings/) | Easy |
 | [0347-top-k-frequent-elements](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0347-top-k-frequent-elements/) | Medium |
 | [0522-longest-uncommon-subsequence-ii](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0522-longest-uncommon-subsequence-ii/) | Medium |
@@ -105,6 +106,7 @@ leetcode-solutions/
 | [0071-simplify-path](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0071-simplify-path/) | Medium |
 | [0151-reverse-words-in-a-string](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0151-reverse-words-in-a-string/) | Medium |
 | [0179-largest-number](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0179-largest-number/) | Medium |
+| [0187-repeated-dna-sequences](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0187-repeated-dna-sequences/) | Medium |
 | [0205-isomorphic-strings](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0205-isomorphic-strings/) | Easy |
 | [0241-different-ways-to-add-parentheses](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0241-different-ways-to-add-parentheses/) | Medium |
 | [0316-remove-duplicate-letters](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0316-remove-duplicate-letters/) | Medium |
@@ -244,6 +246,7 @@ leetcode-solutions/
 ## Bit Manipulation
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0187-repeated-dna-sequences](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0187-repeated-dna-sequences/) | Medium |
 | [0287-find-the-duplicate-number](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0287-find-the-duplicate-number/) | Medium |
 ## Floyd's Cycle Finding Algorithm
 | Problem Name | Difficulty |
@@ -284,6 +287,7 @@ leetcode-solutions/
 ## Hash Function
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0187-repeated-dna-sequences](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0187-repeated-dna-sequences/) | Medium |
 | [0572-subtree-of-another-tree](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0572-subtree-of-another-tree/) | Easy |
 | [0705-design-hashset](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0705-design-hashset/) | Easy |
 | [0706-design-hashmap](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0706-design-hashmap/) | Easy |
@@ -306,6 +310,7 @@ leetcode-solutions/
 ## Rolling Hash
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0187-repeated-dna-sequences](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0187-repeated-dna-sequences/) | Medium |
 | [0718-maximum-length-of-repeated-subarray](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0718-maximum-length-of-repeated-subarray/) | Medium |
 | [2261-k-divisible-elements-subarrays](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/2261-k-divisible-elements-subarrays/) | Medium |
 | [3034-number-of-subarrays-that-match-a-pattern-i](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/3034-number-of-subarrays-that-match-a-pattern-i/) | Medium |
@@ -313,6 +318,7 @@ leetcode-solutions/
 ## Sliding Window
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0187-repeated-dna-sequences](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0187-repeated-dna-sequences/) | Medium |
 | [0718-maximum-length-of-repeated-subarray](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0718-maximum-length-of-repeated-subarray/) | Medium |
 ## Backtracking
 | Problem Name | Difficulty |
@@ -344,4 +350,12 @@ leetcode-solutions/
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [2261-k-divisible-elements-subarrays](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/2261-k-divisible-elements-subarrays/) | Medium |
+## Z Algorithm
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0187-repeated-dna-sequences](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0187-repeated-dna-sequences/) | Medium |
+## Boyer–Moore String-Search Algorithm
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0187-repeated-dna-sequences](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0187-repeated-dna-sequences/) | Medium |
 <!---LeetCode Topics End-->
