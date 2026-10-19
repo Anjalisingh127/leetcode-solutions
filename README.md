@@ -74,6 +74,7 @@ leetcode-solutions/
 | [0706-design-hashmap](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0706-design-hashmap/) | Easy |
 | [0718-maximum-length-of-repeated-subarray](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0718-maximum-length-of-repeated-subarray/) | Medium |
 | [0907-sum-of-subarray-minimums](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0907-sum-of-subarray-minimums/) | Medium |
+| [1337-the-k-weakest-rows-in-a-matrix](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/1337-the-k-weakest-rows-in-a-matrix/) | Easy |
 | [2261-k-divisible-elements-subarrays](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/2261-k-divisible-elements-subarrays/) | Medium |
 | [3034-number-of-subarrays-that-match-a-pattern-i](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/3034-number-of-subarrays-that-match-a-pattern-i/) | Medium |
 | [3042-count-prefix-and-suffix-pairs-i](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/3042-count-prefix-and-suffix-pairs-i/) | Easy |
@@ -132,6 +133,7 @@ leetcode-solutions/
 | [0179-largest-number](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0179-largest-number/) | Medium |
 | [0347-top-k-frequent-elements](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0347-top-k-frequent-elements/) | Medium |
 | [0522-longest-uncommon-subsequence-ii](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0522-longest-uncommon-subsequence-ii/) | Medium |
+| [1337-the-k-weakest-rows-in-a-matrix](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/1337-the-k-weakest-rows-in-a-matrix/) | Easy |
 ## Two Pointers
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -163,6 +165,7 @@ leetcode-solutions/
 | ------- | ------- |
 | [0347-top-k-frequent-elements](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0347-top-k-frequent-elements/) | Medium |
 | [0703-kth-largest-element-in-a-stream](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0703-kth-largest-element-in-a-stream/) | Easy |
+| [1337-the-k-weakest-rows-in-a-matrix](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/1337-the-k-weakest-rows-in-a-matrix/) | Easy |
 ## Bucket Sort
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -245,6 +248,7 @@ leetcode-solutions/
 | [0287-find-the-duplicate-number](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0287-find-the-duplicate-number/) | Medium |
 | [0633-sum-of-square-numbers](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0633-sum-of-square-numbers/) | Medium |
 | [0718-maximum-length-of-repeated-subarray](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0718-maximum-length-of-repeated-subarray/) | Medium |
+| [1337-the-k-weakest-rows-in-a-matrix](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/1337-the-k-weakest-rows-in-a-matrix/) | Easy |
 ## Bit Manipulation
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -367,4 +371,8 @@ leetcode-solutions/
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0703-kth-largest-element-in-a-stream](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0703-kth-largest-element-in-a-stream/) | Easy |
+## Matrix
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [1337-the-k-weakest-rows-in-a-matrix](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/1337-the-k-weakest-rows-in-a-matrix/) | Easy |
 <!---LeetCode Topics End-->
