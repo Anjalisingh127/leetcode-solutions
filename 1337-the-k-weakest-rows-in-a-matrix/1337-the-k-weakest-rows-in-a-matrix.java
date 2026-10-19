@@ -3,7 +3,12 @@ class Solution {
         int m = mat.length;
         int n = mat[0].length;
 
-        int[][] arr = new int[m][2];
+        PriorityQueue<int[]> pq = new PriorityQueue<>((a, b) -> {
+            if (a[0] != b[0]) {
+                return a[0] - b[0];
+            }
+            return a[1] - b[1];
+        });
 
         for (int i = 0; i < m; i++) {
             int count = 0;
@@ -14,21 +19,13 @@ class Solution {
                 }
             }
 
-            arr[i][0] = count;
-            arr[i][1] = i;
+            pq.offer(new int[]{count, i});
         }
-
-        Arrays.sort(arr, (a, b) -> {
-            if (a[0] != b[0]) {
-                return a[0] - b[0];
-            }
-            return a[1] - b[1];
-        });
 
         int[] ans = new int[k];
 
         for (int i = 0; i < k; i++) {
-            ans[i] = arr[i][1];
+            ans[i] = pq.poll()[1];
         }
 
         return ans;
