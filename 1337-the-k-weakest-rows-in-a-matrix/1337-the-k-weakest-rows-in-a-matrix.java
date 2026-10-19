@@ -5,26 +5,34 @@ class Solution {
 
         PriorityQueue<int[]> pq = new PriorityQueue<>((a, b) -> {
             if (a[0] != b[0]) {
-                return a[0] - b[0];
+                return b[0] - a[0];
             }
-            return a[1] - b[1];
+            return b[1] - a[1];
         });
 
         for (int i = 0; i < m; i++) {
-            int count = 0;
+            int left = 0, right = n;
 
-            for (int j = 0; j < n; j++) {
-                if (mat[i][j] == 1) {
-                    count++;
+            while (left < right) {
+                int mid = left + (right - left) / 2;
+
+                if (mat[i][mid] == 1) {
+                    left = mid + 1;
+                } else {
+                    right = mid;
                 }
             }
 
-            pq.offer(new int[]{count, i});
+            pq.offer(new int[]{left, i});
+
+            if (pq.size() > k) {
+                pq.poll();
+            }
         }
 
         int[] ans = new int[k];
 
-        for (int i = 0; i < k; i++) {
+        for (int i = k - 1; i >= 0; i--) {
             ans[i] = pq.poll()[1];
         }
 
