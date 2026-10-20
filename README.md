@@ -76,6 +76,7 @@ leetcode-solutions/
 | [0907-sum-of-subarray-minimums](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0907-sum-of-subarray-minimums/) | Medium |
 | [1337-the-k-weakest-rows-in-a-matrix](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/1337-the-k-weakest-rows-in-a-matrix/) | Easy |
 | [1464-maximum-product-of-two-elements-in-an-array](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/1464-maximum-product-of-two-elements-in-an-array/) | Easy |
+| [2099-find-subsequence-of-length-k-with-the-largest-sum](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/2099-find-subsequence-of-length-k-with-the-largest-sum/) | Easy |
 | [2261-k-divisible-elements-subarrays](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/2261-k-divisible-elements-subarrays/) | Medium |
 | [3034-number-of-subarrays-that-match-a-pattern-i](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/3034-number-of-subarrays-that-match-a-pattern-i/) | Medium |
 | [3042-count-prefix-and-suffix-pairs-i](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/3042-count-prefix-and-suffix-pairs-i/) | Easy |
@@ -93,6 +94,7 @@ leetcode-solutions/
 | [0560-subarray-sum-equals-k](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0560-subarray-sum-equals-k/) | Medium |
 | [0705-design-hashset](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0705-design-hashset/) | Easy |
 | [0706-design-hashmap](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0706-design-hashmap/) | Easy |
+| [2099-find-subsequence-of-length-k-with-the-largest-sum](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/2099-find-subsequence-of-length-k-with-the-largest-sum/) | Easy |
 | [2261-k-divisible-elements-subarrays](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/2261-k-divisible-elements-subarrays/) | Medium |
 ## Union-Find
 | Problem Name | Difficulty |
@@ -136,6 +138,7 @@ leetcode-solutions/
 | [0522-longest-uncommon-subsequence-ii](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0522-longest-uncommon-subsequence-ii/) | Medium |
 | [1337-the-k-weakest-rows-in-a-matrix](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/1337-the-k-weakest-rows-in-a-matrix/) | Easy |
 | [1464-maximum-product-of-two-elements-in-an-array](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/1464-maximum-product-of-two-elements-in-an-array/) | Easy |
+| [2099-find-subsequence-of-length-k-with-the-largest-sum](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/2099-find-subsequence-of-length-k-with-the-largest-sum/) | Easy |
 ## Two Pointers
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -169,6 +172,7 @@ leetcode-solutions/
 | [0703-kth-largest-element-in-a-stream](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0703-kth-largest-element-in-a-stream/) | Easy |
 | [1337-the-k-weakest-rows-in-a-matrix](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/1337-the-k-weakest-rows-in-a-matrix/) | Easy |
 | [1464-maximum-product-of-two-elements-in-an-array](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/1464-maximum-product-of-two-elements-in-an-array/) | Easy |
+| [2099-find-subsequence-of-length-k-with-the-largest-sum](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/2099-find-subsequence-of-length-k-with-the-largest-sum/) | Easy |
 ## Bucket Sort
 | Problem Name | Difficulty |
 | ------- | ------- |
