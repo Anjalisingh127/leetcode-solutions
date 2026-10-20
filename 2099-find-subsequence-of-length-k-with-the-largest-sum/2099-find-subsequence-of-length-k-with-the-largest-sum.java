@@ -1,25 +1,23 @@
 class Solution {
     public int[] maxSubsequence(int[] nums, int k) {
         int n = nums.length;
-        int[] ans = new int[k];
-        int[] temp = nums.clone();
-        Arrays.sort(temp);
+        int[][] arr = new int[n][2];
 
-        HashMap<Integer, Integer> map = new HashMap<>();
-
-        for (int i = n - 1; i >= n - k; i--) {
-            map.put(temp[i], map.getOrDefault(temp[i], 0) + 1);
+        for (int i = 0; i < n; i++) {
+            arr[i][0] = nums[i];
+            arr[i][1] = i;
         }
 
-        int idx = 0;
-        for (int num : nums) {
-            if (map.containsKey(num) && map.get(num) > 0) {
-                ans[idx++] = num;
-                map.put(num, map.get(num) - 1);
-                if (idx == k) {
-                    break;
-                }
-            }
+        Arrays.sort(arr, (a, b) -> b[0] - a[0]);
+
+        int[][] selected = Arrays.copyOfRange(arr, 0, k);
+
+        Arrays.sort(selected, (a, b) -> a[1] - b[1]);
+
+        int[] ans = new int[k];
+
+        for (int i = 0; i < k; i++) {
+            ans[i] = selected[i][0];
         }
 
         return ans;
