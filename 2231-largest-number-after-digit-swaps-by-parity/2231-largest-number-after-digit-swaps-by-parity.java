@@ -1,21 +1,30 @@
 class Solution {
     public int largestInteger(int num) {
         char[] arr = String.valueOf(num).toCharArray();
-        int n = arr.length;
 
-        for (int i = 0; i < n; i++) {
-            for (int j = i + 1; j < n; j++) {
-                int a = arr[i] - '0';
-                int b = arr[j] - '0';
+        PriorityQueue<Integer> odd = new PriorityQueue<>(Collections.reverseOrder());
+        PriorityQueue<Integer> even = new PriorityQueue<>(Collections.reverseOrder());
 
-                if (a % 2 == b % 2 && a < b) {
-                    char temp = arr[i];
-                    arr[i] = arr[j];
-                    arr[j] = temp;
-                }
+        for (char c : arr) {
+            int d = c - '0';
+
+            if (d % 2 == 0) {
+                even.offer(d);
+            } else {
+                odd.offer(d);
             }
         }
 
-        return Integer.parseInt(new String(arr));
+        int ans = 0;
+
+        for (char c : arr) {
+            if ((c - '0') % 2 == 0) {
+                ans = ans * 10 + even.poll();
+            } else {
+                ans = ans * 10 + odd.poll();
+            }
+        }
+
+        return ans;
     }
 }
