@@ -1,21 +1,28 @@
 class Solution {
     public int[] maxSubsequence(int[] nums, int k) {
         int n = nums.length;
-        int[][] arr = new int[n][2];
+        PriorityQueue<int[]> pq = new PriorityQueue<>(
+            (a, b) -> a[0] != b[0]
+                ? a[0] - b[0]
+                : b[1] - a[1]
+        );
 
         for (int i = 0; i < n; i++) {
-            arr[i][0] = nums[i];
-            arr[i][1] = i;
+            pq.offer(new int[]{nums[i], i});
+
+            if (pq.size() > k) {
+                pq.poll();
+            }
         }
 
-        Arrays.sort(arr, (a, b) -> b[0] - a[0]);
-
-        int[][] selected = Arrays.copyOfRange(arr, 0, k);
+        int[][] selected = new int[k][2];
+        for (int i = 0; i < k; i++) {
+            selected[i] = pq.poll();
+        }
 
         Arrays.sort(selected, (a, b) -> a[1] - b[1]);
 
         int[] ans = new int[k];
-
         for (int i = 0; i < k; i++) {
             ans[i] = selected[i][0];
         }
