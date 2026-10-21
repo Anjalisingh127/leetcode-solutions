@@ -1,13 +1,15 @@
 class Solution {
     public int minimumOperations(int[] nums) {
-        Set<Integer> set = new HashSet<>();
+        boolean[] seen = new boolean[1001];
+        int count = 0;
 
         for (int num : nums) {
-            if (num > 0) {
-                set.add(num);
+            if (num > 0 && !seen[num]) {
+                seen[num] = true;
+                count++;
             }
         }
 
-        return set.size();
+        return count;
     }
 }
