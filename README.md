@@ -81,6 +81,7 @@ leetcode-solutions/
 | [2261-k-divisible-elements-subarrays](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/2261-k-divisible-elements-subarrays/) | Medium |
 | [2357-make-array-zero-by-subtracting-equal-amounts](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/2357-make-array-zero-by-subtracting-equal-amounts/) | Easy |
 | [2500-delete-greatest-value-in-each-row](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/2500-delete-greatest-value-in-each-row/) | Easy |
+| [2974-minimum-number-game](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/2974-minimum-number-game/) | Easy |
 | [3034-number-of-subarrays-that-match-a-pattern-i](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/3034-number-of-subarrays-that-match-a-pattern-i/) | Medium |
 | [3042-count-prefix-and-suffix-pairs-i](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/3042-count-prefix-and-suffix-pairs-i/) | Easy |
 ## Hash Table
@@ -147,6 +148,7 @@ leetcode-solutions/
 | [2231-largest-number-after-digit-swaps-by-parity](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/2231-largest-number-after-digit-swaps-by-parity/) | Easy |
 | [2357-make-array-zero-by-subtracting-equal-amounts](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/2357-make-array-zero-by-subtracting-equal-amounts/) | Easy |
 | [2500-delete-greatest-value-in-each-row](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/2500-delete-greatest-value-in-each-row/) | Easy |
+| [2974-minimum-number-game](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/2974-minimum-number-game/) | Easy |
 ## Two Pointers
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -185,6 +187,7 @@ leetcode-solutions/
 | [2231-largest-number-after-digit-swaps-by-parity](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/2231-largest-number-after-digit-swaps-by-parity/) | Easy |
 | [2357-make-array-zero-by-subtracting-equal-amounts](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/2357-make-array-zero-by-subtracting-equal-amounts/) | Easy |
 | [2500-delete-greatest-value-in-each-row](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/2500-delete-greatest-value-in-each-row/) | Easy |
+| [2974-minimum-number-game](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/2974-minimum-number-game/) | Easy |
 ## Bucket Sort
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -400,4 +403,5 @@ leetcode-solutions/
 | ------- | ------- |
 | [2357-make-array-zero-by-subtracting-equal-amounts](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/2357-make-array-zero-by-subtracting-equal-amounts/) | Easy |
 | [2500-delete-greatest-value-in-each-row](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/2500-delete-greatest-value-in-each-row/) | Easy |
+| [2974-minimum-number-game](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/2974-minimum-number-game/) | Easy |
 <!---LeetCode Topics End-->
