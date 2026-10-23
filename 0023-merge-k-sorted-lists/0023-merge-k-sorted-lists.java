@@ -11,23 +11,39 @@
 
 class Solution {
     public ListNode mergeKLists(ListNode[] lists) {
-        List<Integer> arr = new ArrayList<>();
-
-        for (ListNode node : lists) {
-            while (node != null) {
-                arr.add(node.val);
-                node = node.next;
-            }
+        if (lists == null || lists.length == 0) {
+            return null;
         }
 
-        Collections.sort(arr);
+        ListNode result = lists[0];
 
+        for (int i = 1; i < lists.length; i++) {
+            result = mergeTwoLists(result, lists[i]);
+        }
+
+        return result;
+    }
+
+    private ListNode mergeTwoLists(ListNode l1, ListNode l2) {
         ListNode dummy = new ListNode(-1);
         ListNode curr = dummy;
 
-        for (int val : arr) {
-            curr.next = new ListNode(val);
+        while (l1 != null && l2 != null) {
+            if (l1.val <= l2.val) {
+                curr.next = l1;
+                l1 = l1.next;
+            } else {
+                curr.next = l2;
+                l2 = l2.next;
+            }
+
             curr = curr.next;
+        }
+
+        if (l1 != null) {
+            curr.next = l1;
+        } else {
+            curr.next = l2;
         }
 
         return dummy.next;
