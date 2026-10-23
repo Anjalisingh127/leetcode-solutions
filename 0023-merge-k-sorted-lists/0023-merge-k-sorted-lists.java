@@ -15,13 +15,17 @@ class Solution {
             return null;
         }
 
-        ListNode result = lists[0];
+        int interval = 1;
+        int k = lists.length;
 
-        for (int i = 1; i < lists.length; i++) {
-            result = mergeTwoLists(result, lists[i]);
+        while (interval < k) {
+            for (int i = 0; i + interval < k; i += interval * 2) {
+                lists[i] = mergeTwoLists(lists[i], lists[i + interval]);
+            }
+            interval *= 2;
         }
 
-        return result;
+        return lists[0];
     }
 
     private ListNode mergeTwoLists(ListNode l1, ListNode l2) {
@@ -36,15 +40,10 @@ class Solution {
                 curr.next = l2;
                 l2 = l2.next;
             }
-
             curr = curr.next;
         }
 
-        if (l1 != null) {
-            curr.next = l1;
-        } else {
-            curr.next = l2;
-        }
+        curr.next = (l1 != null) ? l1 : l2;
 
         return dummy.next;
     }
