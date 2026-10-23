@@ -11,15 +11,12 @@ class Solution {
         );
 
         for (int i = 0; i < n; i++) {
-            // Add current element and its index
             pq.offer(new int[]{nums[i], i});
 
-            // Remove elements outside the current window
             while (!pq.isEmpty() && pq.peek()[1] <= i - k) {
                 pq.poll();
             }
 
-            // Store maximum once the first window is complete
             if (i >= k - 1) {
                 ans[i - k + 1] = pq.peek()[0];
             }
