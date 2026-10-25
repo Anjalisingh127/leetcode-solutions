@@ -6,17 +6,27 @@ class Solution {
             map.put(c, map.getOrDefault(c, 0) + 1);
         }
 
-        List<Character> list = new ArrayList<>(map.keySet());
+        List<Character>[] bucket = new List[s.length() + 1];
 
-        Collections.sort(list, (a, b) ->
-            map.get(b) - map.get(a)
-        );
+        for (char c : map.keySet()) {
+            int freq = map.get(c);
+
+            if (bucket[freq] == null) {
+                bucket[freq] = new ArrayList<>();
+            }
+
+            bucket[freq].add(c);
+        }
 
         StringBuilder result = new StringBuilder();
 
-        for (char c : list) {
-            for (int i = 0; i < map.get(c); i++) {
-                result.append(c);
+        for (int freq = s.length(); freq >= 1; freq--) {
+            if (bucket[freq] != null) {
+                for (char c : bucket[freq]) {
+                    for (int i = 0; i < freq; i++) {
+                        result.append(c);
+                    }
+                }
             }
         }
 
