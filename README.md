@@ -70,6 +70,7 @@ leetcode-solutions/
 | [0287-find-the-duplicate-number](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0287-find-the-duplicate-number/) | Medium |
 | [0347-top-k-frequent-elements](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0347-top-k-frequent-elements/) | Medium |
 | [0373-find-k-pairs-with-smallest-sums](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0373-find-k-pairs-with-smallest-sums/) | Medium |
+| [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0378-kth-smallest-element-in-a-sorted-matrix/) | Medium |
 | [0522-longest-uncommon-subsequence-ii](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0522-longest-uncommon-subsequence-ii/) | Medium |
 | [0523-continuous-subarray-sum](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0523-continuous-subarray-sum/) | Medium |
 | [0560-subarray-sum-equals-k](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0560-subarray-sum-equals-k/) | Medium |
@@ -147,6 +148,7 @@ leetcode-solutions/
 | [0215-kth-largest-element-in-an-array](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0215-kth-largest-element-in-an-array/) | Medium |
 | [0295-find-median-from-data-stream](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0295-find-median-from-data-stream/) | Hard |
 | [0347-top-k-frequent-elements](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0347-top-k-frequent-elements/) | Medium |
+| [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0378-kth-smallest-element-in-a-sorted-matrix/) | Medium |
 | [0451-sort-characters-by-frequency](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0451-sort-characters-by-frequency/) | Medium |
 | [0522-longest-uncommon-subsequence-ii](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0522-longest-uncommon-subsequence-ii/) | Medium |
 | [1337-the-k-weakest-rows-in-a-matrix](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/1337-the-k-weakest-rows-in-a-matrix/) | Easy |
@@ -194,6 +196,7 @@ leetcode-solutions/
 | [0295-find-median-from-data-stream](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0295-find-median-from-data-stream/) | Hard |
 | [0347-top-k-frequent-elements](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0347-top-k-frequent-elements/) | Medium |
 | [0373-find-k-pairs-with-smallest-sums](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0373-find-k-pairs-with-smallest-sums/) | Medium |
+| [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0378-kth-smallest-element-in-a-sorted-matrix/) | Medium |
 | [0451-sort-characters-by-frequency](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0451-sort-characters-by-frequency/) | Medium |
 | [0703-kth-largest-element-in-a-stream](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0703-kth-largest-element-in-a-stream/) | Easy |
 | [1337-the-k-weakest-rows-in-a-matrix](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/1337-the-k-weakest-rows-in-a-matrix/) | Easy |
@@ -287,6 +290,7 @@ leetcode-solutions/
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0287-find-the-duplicate-number](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0287-find-the-duplicate-number/) | Medium |
+| [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0378-kth-smallest-element-in-a-sorted-matrix/) | Medium |
 | [0633-sum-of-square-numbers](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0633-sum-of-square-numbers/) | Medium |
 | [0718-maximum-length-of-repeated-subarray](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0718-maximum-length-of-repeated-subarray/) | Medium |
 | [1337-the-k-weakest-rows-in-a-matrix](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/1337-the-k-weakest-rows-in-a-matrix/) | Easy |
@@ -419,6 +423,7 @@ leetcode-solutions/
 ## Matrix
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0378-kth-smallest-element-in-a-sorted-matrix/) | Medium |
 | [1337-the-k-weakest-rows-in-a-matrix](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/1337-the-k-weakest-rows-in-a-matrix/) | Easy |
 | [2500-delete-greatest-value-in-each-row](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/2500-delete-greatest-value-in-each-row/) | Easy |
 ## Simulation
