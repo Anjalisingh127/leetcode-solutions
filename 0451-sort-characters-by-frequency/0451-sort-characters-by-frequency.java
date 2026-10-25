@@ -1,58 +1,26 @@
 class Solution {
     public String frequencySort(String s) {
-        StringBuilder result = new StringBuilder();
-        boolean[] visited = new boolean[s.length()];
+        HashMap<Character, Integer> map = new HashMap<>();
 
-        for (int i = 0; i < s.length(); i++) {
-            if (visited[i]) {
-                continue;
-            }
-
-            int count = 1;
-
-            for (int j = i + 1; j < s.length(); j++) {
-                if (s.charAt(i) == s.charAt(j)) {
-                    count++;
-                    visited[j] = true;
-                }
-            }
+        // Count frequency of each character
+        for (char c : s.toCharArray()) {
+            map.put(c, map.getOrDefault(c, 0) + 1);
         }
 
-        while (result.length() < s.length()) {
-            int maxFreq = 0;
-            char maxChar = '\0';
+        // Store unique characters
+        List<Character> list = new ArrayList<>(map.keySet());
 
-            for (int i = 0; i < s.length(); i++) {
-                if (visited[i]) {
-                    continue;
-                }
+        // Sort by frequency in descending order
+        Collections.sort(list, (a, b) ->
+            map.get(b) - map.get(a)
+        );
 
-                int count = 0;
+        // Build the result
+        StringBuilder result = new StringBuilder();
 
-                for (int j = 0; j < s.length(); j++) {
-                    if (s.charAt(i) == s.charAt(j)) {
-                        count++;
-                    }
-                }
-
-                if (count > maxFreq) {
-                    maxFreq = count;
-                    maxChar = s.charAt(i);
-                }
-            }
-
-            if (maxFreq == 0) {
-                break;
-            }
-
-            for (int k = 0; k < maxFreq; k++) {
-                result.append(maxChar);
-            }
-
-            for (int i = 0; i < s.length(); i++) {
-                if (s.charAt(i) == maxChar) {
-                    visited[i] = true;
-                }
+        for (char c : list) {
+            for (int i = 0; i < map.get(c); i++) {
+                result.append(c);
             }
         }
 
