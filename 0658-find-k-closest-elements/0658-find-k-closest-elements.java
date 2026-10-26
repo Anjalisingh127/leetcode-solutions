@@ -6,18 +6,16 @@ class Solution {
             list.add(num);
         }
 
-        list.sort((a, b) -> {
-            int diff = Integer.compare(Math.abs(a - x), Math.abs(b - x));
+        while (list.size() > k) {
+            int first = list.get(0);
+            int last = list.get(list.size() - 1);
 
-            if (diff == 0) {
-                return Integer.compare(a, b);
+            if (Math.abs(first - x) > Math.abs(last - x)) {
+                list.remove(0);
+            } else {
+                list.remove(list.size() - 1);
             }
-
-            return diff;
-        });
-
-        list = list.subList(0, k);
-        Collections.sort(list);
+        }
 
         return list;
     }
