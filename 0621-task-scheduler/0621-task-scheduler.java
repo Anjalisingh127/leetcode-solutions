@@ -6,27 +6,15 @@ class Solution {
             freq[task - 'A']++;
         }
 
-        int time = 0;
+        Arrays.sort(freq);
 
-        while (true) {
-            Arrays.sort(freq);
-            int executed = 0;
+        int maxFreq = freq[25];
+        int idle = (maxFreq - 1) * n;
 
-            for (int i = 25; i >= 0 && executed <= n; i--) {
-                if (freq[i] == 0) {
-                    break;
-                }
-
-                freq[i]--;
-                executed++;
-                time++;
-            }
-
-            if (Arrays.stream(freq).sum() == 0) {
-                return time;
-            }
-
-            time += (n + 1 - executed);
+        for (int i = 24; i >= 0 && freq[i] > 0; i--) {
+            idle -= Math.min(maxFreq - 1, freq[i]);
         }
+
+        return tasks.length + Math.max(0, idle);
     }
 }
