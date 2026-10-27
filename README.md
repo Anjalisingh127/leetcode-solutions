@@ -76,6 +76,7 @@ leetcode-solutions/
 | [0560-subarray-sum-equals-k](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0560-subarray-sum-equals-k/) | Medium |
 | [0621-task-scheduler](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0621-task-scheduler/) | Medium |
 | [0658-find-k-closest-elements](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0658-find-k-closest-elements/) | Medium |
+| [0692-top-k-frequent-words](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0692-top-k-frequent-words/) | Medium |
 | [0705-design-hashset](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0705-design-hashset/) | Easy |
 | [0706-design-hashmap](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0706-design-hashmap/) | Easy |
 | [0718-maximum-length-of-repeated-subarray](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0718-maximum-length-of-repeated-subarray/) | Medium |
@@ -104,6 +105,7 @@ leetcode-solutions/
 | [0523-continuous-subarray-sum](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0523-continuous-subarray-sum/) | Medium |
 | [0560-subarray-sum-equals-k](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0560-subarray-sum-equals-k/) | Medium |
 | [0621-task-scheduler](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0621-task-scheduler/) | Medium |
+| [0692-top-k-frequent-words](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0692-top-k-frequent-words/) | Medium |
 | [0705-design-hashset](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0705-design-hashset/) | Easy |
 | [0706-design-hashmap](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0706-design-hashmap/) | Easy |
 | [2099-find-subsequence-of-length-k-with-the-largest-sum](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/2099-find-subsequence-of-length-k-with-the-largest-sum/) | Easy |
@@ -131,6 +133,7 @@ leetcode-solutions/
 | [0402-remove-k-digits](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0402-remove-k-digits/) | Medium |
 | [0451-sort-characters-by-frequency](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0451-sort-characters-by-frequency/) | Medium |
 | [0522-longest-uncommon-subsequence-ii](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0522-longest-uncommon-subsequence-ii/) | Medium |
+| [0692-top-k-frequent-words](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0692-top-k-frequent-words/) | Medium |
 | [1021-remove-outermost-parentheses](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/1021-remove-outermost-parentheses/) | Easy |
 | [1544-make-the-string-great](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/1544-make-the-string-great/) | Easy |
 | [3042-count-prefix-and-suffix-pairs-i](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/3042-count-prefix-and-suffix-pairs-i/) | Easy |
@@ -158,6 +161,7 @@ leetcode-solutions/
 | [0522-longest-uncommon-subsequence-ii](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0522-longest-uncommon-subsequence-ii/) | Medium |
 | [0621-task-scheduler](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0621-task-scheduler/) | Medium |
 | [0658-find-k-closest-elements](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0658-find-k-closest-elements/) | Medium |
+| [0692-top-k-frequent-words](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0692-top-k-frequent-words/) | Medium |
 | [0912-sort-an-array](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0912-sort-an-array/) | Medium |
 | [1337-the-k-weakest-rows-in-a-matrix](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/1337-the-k-weakest-rows-in-a-matrix/) | Easy |
 | [1464-maximum-product-of-two-elements-in-an-array](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/1464-maximum-product-of-two-elements-in-an-array/) | Easy |
@@ -210,6 +214,7 @@ leetcode-solutions/
 | [0451-sort-characters-by-frequency](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0451-sort-characters-by-frequency/) | Medium |
 | [0621-task-scheduler](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0621-task-scheduler/) | Medium |
 | [0658-find-k-closest-elements](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0658-find-k-closest-elements/) | Medium |
+| [0692-top-k-frequent-words](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0692-top-k-frequent-words/) | Medium |
 | [0703-kth-largest-element-in-a-stream](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0703-kth-largest-element-in-a-stream/) | Easy |
 | [0912-sort-an-array](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0912-sort-an-array/) | Medium |
 | [1337-the-k-weakest-rows-in-a-matrix](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/1337-the-k-weakest-rows-in-a-matrix/) | Easy |
@@ -224,6 +229,7 @@ leetcode-solutions/
 | ------- | ------- |
 | [0347-top-k-frequent-elements](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0347-top-k-frequent-elements/) | Medium |
 | [0451-sort-characters-by-frequency](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0451-sort-characters-by-frequency/) | Medium |
+| [0692-top-k-frequent-words](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0692-top-k-frequent-words/) | Medium |
 | [0912-sort-an-array](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0912-sort-an-array/) | Medium |
 ## Counting
 | Problem Name | Difficulty |
@@ -231,6 +237,7 @@ leetcode-solutions/
 | [0347-top-k-frequent-elements](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0347-top-k-frequent-elements/) | Medium |
 | [0451-sort-characters-by-frequency](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0451-sort-characters-by-frequency/) | Medium |
 | [0621-task-scheduler](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0621-task-scheduler/) | Medium |
+| [0692-top-k-frequent-words](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0692-top-k-frequent-words/) | Medium |
 ## Quickselect
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -375,6 +382,7 @@ leetcode-solutions/
 ## Trie
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0692-top-k-frequent-words](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0692-top-k-frequent-words/) | Medium |
 | [2261-k-divisible-elements-subarrays](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/2261-k-divisible-elements-subarrays/) | Medium |
 | [3042-count-prefix-and-suffix-pairs-i](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/3042-count-prefix-and-suffix-pairs-i/) | Easy |
 ## Rolling Hash
