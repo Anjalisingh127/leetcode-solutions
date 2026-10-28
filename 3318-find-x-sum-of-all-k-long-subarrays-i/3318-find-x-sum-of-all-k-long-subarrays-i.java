@@ -10,18 +10,19 @@ class Solution {
                 map.put(nums[j], map.getOrDefault(nums[j], 0) + 1);
             }
 
-            List<Integer> list = new ArrayList<>(map.keySet());
-
-            list.sort((a, b) -> {
-                if (map.get(a).equals(map.get(b))) {
-                    return b - a;
+            PriorityQueue<Integer> pq = new PriorityQueue<>((a, b) -> {
+                if (!map.get(a).equals(map.get(b))) {
+                    return map.get(b) - map.get(a);
                 }
-                return map.get(b) - map.get(a);
+                return b - a;
             });
 
+            pq.addAll(map.keySet());
+
             int sum = 0;
-            for (int j = 0; j < Math.min(x, list.size()); j++) {
-                int num = list.get(j);
+
+            for (int j = 0; j < x && !pq.isEmpty(); j++) {
+                int num = pq.poll();
                 sum += num * map.get(num);
             }
 
