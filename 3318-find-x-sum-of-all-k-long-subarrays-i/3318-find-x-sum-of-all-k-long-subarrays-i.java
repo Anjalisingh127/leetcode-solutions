@@ -6,12 +6,10 @@ class Solution {
         for (int i = 0; i <= n - k; i++) {
             HashMap<Integer, Integer> map = new HashMap<>();
 
-            // Count frequency of each element in the window
             for (int j = i; j < i + k; j++) {
                 map.put(nums[j], map.getOrDefault(nums[j], 0) + 1);
             }
 
-            // Sort elements by frequency, then by value
             List<Integer> list = new ArrayList<>(map.keySet());
 
             list.sort((a, b) -> {
@@ -21,7 +19,6 @@ class Solution {
                 return map.get(b) - map.get(a);
             });
 
-            // Calculate X-sum
             int sum = 0;
             for (int j = 0; j < Math.min(x, list.size()); j++) {
                 int num = list.get(j);
