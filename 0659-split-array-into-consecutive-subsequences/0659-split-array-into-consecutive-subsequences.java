@@ -15,9 +15,8 @@ class Solution {
             if (need.getOrDefault(num, 0) > 0) {
                 need.put(num, need.get(num) - 1);
                 need.put(num + 1, need.getOrDefault(num + 1, 0) + 1);
-            }
-            else if (freq.getOrDefault(num + 1, 0) > 0 &&
-                     freq.getOrDefault(num + 2, 0) > 0) {
+            } else if (freq.getOrDefault(num + 1, 0) > 0 &&
+                       freq.getOrDefault(num + 2, 0) > 0) {
                 freq.put(num + 1, freq.get(num + 1) - 1);
                 freq.put(num + 2, freq.get(num + 2) - 1);
 
