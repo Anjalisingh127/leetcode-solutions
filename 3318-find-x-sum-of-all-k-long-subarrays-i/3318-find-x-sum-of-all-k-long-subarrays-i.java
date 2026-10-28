@@ -4,29 +4,43 @@ class Solution {
         int[] ans = new int[n - k + 1];
 
         for (int i = 0; i <= n - k; i++) {
-            HashMap<Integer, Integer> map = new HashMap<>();
+            Map<Integer, Integer> freq = new HashMap<>();
 
             for (int j = i; j < i + k; j++) {
-                map.put(nums[j], map.getOrDefault(nums[j], 0) + 1);
+                freq.put(nums[j], freq.getOrDefault(nums[j], 0) + 1);
             }
 
-            PriorityQueue<Integer> pq = new PriorityQueue<>((a, b) -> {
-                if (!map.get(a).equals(map.get(b))) {
-                    return map.get(b) - map.get(a);
+            List<Integer> list = new ArrayList<>(freq.keySet());
+
+            list.sort((a, b) -> {
+                int fa = freq.get(a);
+                int fb = freq.get(b);
+
+                if (fa != fb) {
+                    return fb - fa;
                 }
                 return b - a;
             });
 
-            pq.addAll(map.keySet());
-
             int sum = 0;
-
-            for (int j = 0; j < x && !pq.isEmpty(); j++) {
-                int num = pq.poll();
-                sum += num * map.get(num);
+            for (int j = 0; j < Math.min(x, list.size()); j++) {
+                int num = list.get(j);
+                sum += num * freq.get(num);
             }
 
             ans[i] = sum;
+
+            if (i + k < n) {
+                int outgoing = nums[i];
+                int incoming = nums[i + k];
+
+                freq.put(outgoing, freq.get(outgoing) - 1);
+                if (freq.get(outgoing) == 0) {
+                    freq.remove(outgoing);
+                }
+
+                freq.put(incoming, freq.getOrDefault(incoming, 0) + 1);
+            }
         }
 
         return ans;
