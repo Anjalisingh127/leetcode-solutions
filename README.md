@@ -104,6 +104,7 @@ leetcode-solutions/
 | [0141-linked-list-cycle](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0141-linked-list-cycle/) | Easy |
 | [0160-intersection-of-two-linked-lists](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0160-intersection-of-two-linked-lists/) | Easy |
 | [0187-repeated-dna-sequences](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0187-repeated-dna-sequences/) | Medium |
+| [0202-happy-number](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0202-happy-number/) | Easy |
 | [0205-isomorphic-strings](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0205-isomorphic-strings/) | Easy |
 | [0219-contains-duplicate-ii](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0219-contains-duplicate-ii/) | Easy |
 | [0347-top-k-frequent-elements](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0347-top-k-frequent-elements/) | Medium |
@@ -193,6 +194,7 @@ leetcode-solutions/
 | [0143-reorder-list](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0143-reorder-list/) | Medium |
 | [0151-reverse-words-in-a-string](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0151-reverse-words-in-a-string/) | Medium |
 | [0160-intersection-of-two-linked-lists](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0160-intersection-of-two-linked-lists/) | Easy |
+| [0202-happy-number](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0202-happy-number/) | Easy |
 | [0287-find-the-duplicate-number](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0287-find-the-duplicate-number/) | Medium |
 | [0295-find-median-from-data-stream](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0295-find-median-from-data-stream/) | Hard |
 | [0392-is-subsequence](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0392-is-subsequence/) | Easy |
@@ -263,6 +265,7 @@ leetcode-solutions/
 ## Math
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0202-happy-number](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0202-happy-number/) | Easy |
 | [0241-different-ways-to-add-parentheses](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0241-different-ways-to-add-parentheses/) | Medium |
 | [0523-continuous-subarray-sum](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0523-continuous-subarray-sum/) | Medium |
 | [0633-sum-of-square-numbers](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0633-sum-of-square-numbers/) | Medium |
@@ -343,6 +346,7 @@ leetcode-solutions/
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0141-linked-list-cycle](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0141-linked-list-cycle/) | Easy |
+| [0202-happy-number](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0202-happy-number/) | Easy |
 | [0287-find-the-duplicate-number](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0287-find-the-duplicate-number/) | Medium |
 ## Tree
 | Problem Name | Difficulty |
