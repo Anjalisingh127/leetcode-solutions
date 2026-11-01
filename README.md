@@ -86,6 +86,7 @@ leetcode-solutions/
 | [0718-maximum-length-of-repeated-subarray](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0718-maximum-length-of-repeated-subarray/) | Medium |
 | [0907-sum-of-subarray-minimums](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0907-sum-of-subarray-minimums/) | Medium |
 | [0912-sort-an-array](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0912-sort-an-array/) | Medium |
+| [1089-duplicate-zeros](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/1089-duplicate-zeros/) | Easy |
 | [1337-the-k-weakest-rows-in-a-matrix](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/1337-the-k-weakest-rows-in-a-matrix/) | Easy |
 | [1464-maximum-product-of-two-elements-in-an-array](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/1464-maximum-product-of-two-elements-in-an-array/) | Easy |
 | [2099-find-subsequence-of-length-k-with-the-largest-sum](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/2099-find-subsequence-of-length-k-with-the-largest-sum/) | Easy |
@@ -205,6 +206,7 @@ leetcode-solutions/
 | [0522-longest-uncommon-subsequence-ii](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0522-longest-uncommon-subsequence-ii/) | Medium |
 | [0633-sum-of-square-numbers](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0633-sum-of-square-numbers/) | Medium |
 | [0658-find-k-closest-elements](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0658-find-k-closest-elements/) | Medium |
+| [1089-duplicate-zeros](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/1089-duplicate-zeros/) | Easy |
 ## Dynamic Programming
 | Problem Name | Difficulty |
 | ------- | ------- |
