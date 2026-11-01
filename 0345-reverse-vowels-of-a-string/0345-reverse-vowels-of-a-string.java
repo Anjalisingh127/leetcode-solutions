@@ -1,5 +1,9 @@
-
 class Solution {
+
+    private boolean isVowel(char ch) {
+        return "aeiouAEIOU".indexOf(ch) != -1;
+    }
+
     public String reverseVowels(String s) {
         char[] arr = s.toCharArray();
 
@@ -8,20 +12,20 @@ class Solution {
 
         while (left < right) {
 
-            while (left < right && "aeiouAEIOU".indexOf(arr[left]) == -1) {
+            if (!isVowel(arr[left])) {
                 left++;
-            }
+            } 
+            else if (!isVowel(arr[right])) {
+                right--;
+            } 
+            else {
+                char temp = arr[left];
+                arr[left] = arr[right];
+                arr[right] = temp;
 
-            while (left < right && "aeiouAEIOU".indexOf(arr[right]) == -1) {
+                left++;
                 right--;
             }
-
-            char temp = arr[left];
-            arr[left] = arr[right];
-            arr[right] = temp;
-
-            left++;
-            right--;
         }
 
         return new String(arr);
