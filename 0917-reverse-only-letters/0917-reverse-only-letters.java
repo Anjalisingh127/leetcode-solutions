@@ -2,24 +2,22 @@ class Solution {
     public String reverseOnlyLetters(String s) {
         char[] arr = s.toCharArray();
 
-        int left = 0;
-        int right = arr.length - 1;
+        int i = 0, j = arr.length - 1;
 
-        while (left < right) {
-
-            if (!Character.isLetter(arr[left])) {
-                left++;
-            }
-            else if (!Character.isLetter(arr[right])) {
-                right--;
-            }
+        while (i < j) {
+            if (!Character.isLetter(arr[i])) {
+                i++;
+            } 
+            else if (!Character.isLetter(arr[j])) {
+                j--;
+            } 
             else {
-                char temp = arr[left];
-                arr[left] = arr[right];
-                arr[right] = temp;
+                char temp = arr[i];
+                arr[i] = arr[j];
+                arr[j] = temp;
 
-                left++;
-                right--;
+                i++;
+                j--;
             }
         }
 
