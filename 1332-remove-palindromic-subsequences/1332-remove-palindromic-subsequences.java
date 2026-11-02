@@ -7,6 +7,7 @@ class Solution {
             if (s.charAt(left) != s.charAt(right)) {
                 return 2;
             }
+
             left++;
             right--;
         }
