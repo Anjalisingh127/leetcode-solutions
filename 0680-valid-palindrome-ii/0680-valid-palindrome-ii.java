@@ -1,23 +1,18 @@
 class Solution {
     public boolean validPalindrome(String s) {
-        int left = 0;
-        int right = s.length() - 1;
+        int left = 0, right = s.length() - 1;
         
         while (left < right) {
             if (s.charAt(left) != s.charAt(right)) {
+                // Check if skipping left character works
+                int l1 = left + 1, r1 = right;
+                while (l1 < r1 && s.charAt(l1) == s.charAt(r1)) { l1++; r1--; }
+                if (l1 >= r1) return true;
                 
-                return isPalindrome(s, left + 1, right) || isPalindrome(s, left, right - 1);
-            }
-            left++;
-            right--;
-        }
-        return true;
-    }
-    
-    private boolean isPalindrome(String s, int left, int right) {
-        while (left < right) {
-            if (s.charAt(left) != s.charAt(right)) {
-                return false;
+                // Check if skipping right character works
+                int l2 = left, r2 = right - 1;
+                while (l2 < r2 && s.charAt(l2) == s.charAt(r2)) { l2++; r2--; }
+                return l2 >= r2;
             }
             left++;
             right--;
