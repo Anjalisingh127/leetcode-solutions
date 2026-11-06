@@ -88,6 +88,7 @@ leetcode-solutions/
 | [0912-sort-an-array](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0912-sort-an-array/) | Medium |
 | [1089-duplicate-zeros](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/1089-duplicate-zeros/) | Easy |
 | [1337-the-k-weakest-rows-in-a-matrix](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/1337-the-k-weakest-rows-in-a-matrix/) | Easy |
+| [1346-check-if-n-and-its-double-exist](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/1346-check-if-n-and-its-double-exist/) | Easy |
 | [1464-maximum-product-of-two-elements-in-an-array](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/1464-maximum-product-of-two-elements-in-an-array/) | Easy |
 | [2099-find-subsequence-of-length-k-with-the-largest-sum](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/2099-find-subsequence-of-length-k-with-the-largest-sum/) | Easy |
 | [2261-k-divisible-elements-subarrays](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/2261-k-divisible-elements-subarrays/) | Medium |
@@ -120,6 +121,7 @@ leetcode-solutions/
 | [0692-top-k-frequent-words](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0692-top-k-frequent-words/) | Medium |
 | [0705-design-hashset](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0705-design-hashset/) | Easy |
 | [0706-design-hashmap](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0706-design-hashmap/) | Easy |
+| [1346-check-if-n-and-its-double-exist](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/1346-check-if-n-and-its-double-exist/) | Easy |
 | [2099-find-subsequence-of-length-k-with-the-largest-sum](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/2099-find-subsequence-of-length-k-with-the-largest-sum/) | Easy |
 | [2261-k-divisible-elements-subarrays](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/2261-k-divisible-elements-subarrays/) | Medium |
 | [2357-make-array-zero-by-subtracting-equal-amounts](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/2357-make-array-zero-by-subtracting-equal-amounts/) | Easy |
@@ -185,6 +187,7 @@ leetcode-solutions/
 | [0692-top-k-frequent-words](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0692-top-k-frequent-words/) | Medium |
 | [0912-sort-an-array](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0912-sort-an-array/) | Medium |
 | [1337-the-k-weakest-rows-in-a-matrix](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/1337-the-k-weakest-rows-in-a-matrix/) | Easy |
+| [1346-check-if-n-and-its-double-exist](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/1346-check-if-n-and-its-double-exist/) | Easy |
 | [1464-maximum-product-of-two-elements-in-an-array](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/1464-maximum-product-of-two-elements-in-an-array/) | Easy |
 | [2099-find-subsequence-of-length-k-with-the-largest-sum](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/2099-find-subsequence-of-length-k-with-the-largest-sum/) | Easy |
 | [2231-largest-number-after-digit-swaps-by-parity](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/2231-largest-number-after-digit-swaps-by-parity/) | Easy |
@@ -217,6 +220,7 @@ leetcode-solutions/
 | [0917-reverse-only-letters](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0917-reverse-only-letters/) | Easy |
 | [1089-duplicate-zeros](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/1089-duplicate-zeros/) | Easy |
 | [1332-remove-palindromic-subsequences](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/1332-remove-palindromic-subsequences/) | Easy |
+| [1346-check-if-n-and-its-double-exist](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/1346-check-if-n-and-its-double-exist/) | Easy |
 ## Dynamic Programming
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -353,6 +357,7 @@ leetcode-solutions/
 | [0658-find-k-closest-elements](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0658-find-k-closest-elements/) | Medium |
 | [0718-maximum-length-of-repeated-subarray](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0718-maximum-length-of-repeated-subarray/) | Medium |
 | [1337-the-k-weakest-rows-in-a-matrix](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/1337-the-k-weakest-rows-in-a-matrix/) | Easy |
+| [1346-check-if-n-and-its-double-exist](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/1346-check-if-n-and-its-double-exist/) | Easy |
 ## Bit Manipulation
 | Problem Name | Difficulty |
 | ------- | ------- |
