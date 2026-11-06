@@ -17,71 +17,48 @@ class Solution {
             return head;
         }
 
-        ArrayList<Integer> list = new ArrayList<>();
+        ListNode slow = head;
+        ListNode fast = head;
+        ListNode prev = null;
 
-        ListNode temp = head;
-
-        while (temp != null) {
-            list.add(temp.val);
-            temp = temp.next;
+        while (fast != null && fast.next != null) {
+            prev = slow;
+            slow = slow.next;
+            fast = fast.next.next;
         }
 
-        int[] arr = new int[list.size()];
+        prev.next = null;
 
-        for (int i = 0; i < arr.length; i++) {
-            arr[i] = list.get(i);
-        }
+        ListNode left = sortList(head);
+        ListNode right = sortList(slow);
 
-        mergeSort(arr, 0, arr.length - 1);
-
-        temp = head;
-
-        for (int num : arr) {
-            temp.val = num;
-            temp = temp.next;
-        }
-
-        return head;
+        return merge(left, right);
     }
 
-    void mergeSort(int[] arr, int left, int right) {
+    private ListNode merge(ListNode l1, ListNode l2) {
 
-        if (left >= right) return;
+        ListNode dummy = new ListNode(0);
+        ListNode tail = dummy;
 
-        int mid = left + (right - left) / 2;
+        while (l1 != null && l2 != null) {
 
-        mergeSort(arr, left, mid);
-        mergeSort(arr, mid + 1, right);
-
-        merge(arr, left, mid, right);
-    }
-
-    void merge(int[] arr, int left, int mid, int right) {
-
-        int[] temp = new int[right - left + 1];
-
-        int i = left;
-        int j = mid + 1;
-        int k = 0;
-
-        while (i <= mid && j <= right) {
-            if (arr[i] <= arr[j]) {
-                temp[k++] = arr[i++];
+            if (l1.val <= l2.val) {
+                tail.next = l1;
+                l1 = l1.next;
             } else {
-                temp[k++] = arr[j++];
+                tail.next = l2;
+                l2 = l2.next;
             }
+
+            tail = tail.next;
         }
 
-        while (i <= mid) {
-            temp[k++] = arr[i++];
+        if (l1 != null) {
+            tail.next = l1;
+        } else {
+            tail.next = l2;
         }
 
-        while (j <= right) {
-            temp[k++] = arr[j++];
-        }
-
-        for (int x = 0; x < temp.length; x++) {
-            arr[left + x] = temp[x];
-        }
+        return dummy.next;
     }
 }
