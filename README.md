@@ -174,6 +174,7 @@ leetcode-solutions/
 | [0015-3sum](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0015-3sum/) | Medium |
 | [0049-group-anagrams](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0049-group-anagrams/) | Medium |
 | [0075-sort-colors](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0075-sort-colors/) | Medium |
+| [0148-sort-list](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0148-sort-list/) | Medium |
 | [0179-largest-number](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0179-largest-number/) | Medium |
 | [0215-kth-largest-element-in-an-array](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0215-kth-largest-element-in-an-array/) | Medium |
 | [0295-find-median-from-data-stream](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0295-find-median-from-data-stream/) | Hard |
@@ -204,6 +205,7 @@ leetcode-solutions/
 | [0082-remove-duplicates-from-sorted-list-ii](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0082-remove-duplicates-from-sorted-list-ii/) | Medium |
 | [0141-linked-list-cycle](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0141-linked-list-cycle/) | Easy |
 | [0143-reorder-list](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0143-reorder-list/) | Medium |
+| [0148-sort-list](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0148-sort-list/) | Medium |
 | [0151-reverse-words-in-a-string](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0151-reverse-words-in-a-string/) | Medium |
 | [0160-intersection-of-two-linked-lists](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0160-intersection-of-two-linked-lists/) | Easy |
 | [0202-happy-number](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0202-happy-number/) | Easy |
@@ -234,6 +236,7 @@ leetcode-solutions/
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0023-merge-k-sorted-lists/) | Hard |
+| [0148-sort-list](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0148-sort-list/) | Medium |
 | [0215-kth-largest-element-in-an-array](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0215-kth-largest-element-in-an-array/) | Medium |
 | [0347-top-k-frequent-elements](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0347-top-k-frequent-elements/) | Medium |
 | [0912-sort-an-array](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0912-sort-an-array/) | Medium |
@@ -422,6 +425,7 @@ leetcode-solutions/
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0114-flatten-binary-tree-to-linked-list/) | Medium |
 | [0141-linked-list-cycle](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0141-linked-list-cycle/) | Easy |
 | [0143-reorder-list](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0143-reorder-list/) | Medium |
+| [0148-sort-list](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0148-sort-list/) | Medium |
 | [0160-intersection-of-two-linked-lists](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0160-intersection-of-two-linked-lists/) | Easy |
 | [0705-design-hashset](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0705-design-hashset/) | Easy |
 | [0706-design-hashmap](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0706-design-hashmap/) | Easy |
@@ -510,6 +514,7 @@ leetcode-solutions/
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0023-merge-k-sorted-lists/) | Hard |
+| [0148-sort-list](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0148-sort-list/) | Medium |
 | [0912-sort-an-array](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0912-sort-an-array/) | Medium |
 ## Tournament Sort
 | Problem Name | Difficulty |
