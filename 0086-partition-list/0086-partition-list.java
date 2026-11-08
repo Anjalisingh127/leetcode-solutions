@@ -8,32 +8,32 @@
  *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
  * }
  */
+
 class Solution {
     public ListNode partition(ListNode head, int x) {
 
-        ListNode smallDummy = new ListNode(0);
-        ListNode largeDummy = new ListNode(0);
+        ListNode beforeHead = new ListNode(0);
+        ListNode afterHead = new ListNode(0);
 
-        ListNode small = smallDummy;
-        ListNode large = largeDummy;
+        ListNode before = beforeHead;
+        ListNode after = afterHead;
 
         while (head != null) {
 
             if (head.val < x) {
-                small.next = head;
-                small = small.next;
-            } 
-            else {
-                large.next = head;
-                large = large.next;
+                before.next = head;
+                before = before.next;
+            } else {
+                after.next = head;
+                after = after.next;
             }
 
             head = head.next;
         }
 
-        large.next = null;
-        small.next = largeDummy.next;
+        after.next = null;
+        before.next = afterHead.next;
 
-        return smallDummy.next;
+        return beforeHead.next;
     }
 }
