@@ -5,15 +5,16 @@ class Solution {
         int n = nums.length;
         int count = 0;
 
-        for (int i = 0; i < n - 2; i++) {
-            for (int j = i + 1; j < n - 1; j++) {
-                for (int k = j + 1; k < n; k++) {
+        for (int k = n - 1; k >= 2; k--) {
+            int left = 0;
+            int right = k - 1;
 
-                    if (nums[i] + nums[j] > nums[k]) {
-                        count++;
-                    } else {
-                        break;
-                    }
+            while (left < right) {
+                if (nums[left] + nums[right] > nums[k]) {
+                    count += right - left;
+                    right--;
+                } else {
+                    left++;
                 }
             }
         }
