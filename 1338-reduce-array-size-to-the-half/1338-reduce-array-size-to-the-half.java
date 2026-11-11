@@ -6,26 +6,28 @@ class Solution {
         for (int num : arr) {
             map.put(num, map.getOrDefault(num, 0) + 1);
         }
-        
-        int[] freq = new int[map.size()];
-        int index = 0;
 
-        for (int value : map.values()) {
-            freq[index++] = value;
+        int[] bucket = new int[arr.length + 1];
+
+        for (int freq : map.values()) {
+            bucket[freq]++;
         }
-
-        Arrays.sort(freq);
 
         int removed = 0;
         int count = 0;
 
-        for (int i = freq.length - 1; i >= 0; i--) {
+        for (int i = arr.length; i >= 1; i--) {
 
-            removed += freq[i];
-            count++;
+            while (bucket[i] > 0) {
 
-            if (removed >= arr.length / 2) {
-                break;
+                removed += i;
+                count++;
+
+                if (removed >= arr.length / 2) {
+                    return count;
+                }
+
+                bucket[i]--;
             }
         }
 
