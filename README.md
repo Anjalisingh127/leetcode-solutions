@@ -224,6 +224,7 @@ leetcode-solutions/
 | [0015-3sum](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0015-3sum/) | Medium |
 | [0016-3sum-closest](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0016-3sum-closest/) | Medium |
 | [0018-4sum](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0018-4sum/) | Medium |
+| [0019-remove-nth-node-from-end-of-list](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0019-remove-nth-node-from-end-of-list/) | Medium |
 | [0075-sort-colors](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0075-sort-colors/) | Medium |
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0080-remove-duplicates-from-sorted-array-ii/) | Medium |
 | [0082-remove-duplicates-from-sorted-list-ii](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0082-remove-duplicates-from-sorted-list-ii/) | Medium |
@@ -461,6 +462,7 @@ leetcode-solutions/
 ## Linked List
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0019-remove-nth-node-from-end-of-list](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0019-remove-nth-node-from-end-of-list/) | Medium |
 | [0023-merge-k-sorted-lists](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0023-merge-k-sorted-lists/) | Hard |
 | [0082-remove-duplicates-from-sorted-list-ii](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0082-remove-duplicates-from-sorted-list-ii/) | Medium |
 | [0086-partition-list](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0086-partition-list/) | Medium |
