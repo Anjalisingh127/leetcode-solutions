@@ -1,9 +1,9 @@
 class Solution {
     public int compress(char[] chars) {
 
+        int n = chars.length;
         int index = 0;
         int i = 0;
-        int n = chars.length;
 
         while (i < n) {
 
@@ -19,10 +19,22 @@ class Solution {
 
             if (count > 1) {
 
-                String num = String.valueOf(count);
+                int start = index;
 
-                for (char c : num.toCharArray()) {
-                    chars[index++] = c;
+                while (count > 0) {
+                    chars[index++] = (char) ('0' + count % 10);
+                    count /= 10;
+                }
+
+                int end = index - 1;
+
+                while (start < end) {
+                    char temp = chars[start];
+                    chars[start] = chars[end];
+                    chars[end] = temp;
+
+                    start++;
+                    end--;
                 }
             }
         }
