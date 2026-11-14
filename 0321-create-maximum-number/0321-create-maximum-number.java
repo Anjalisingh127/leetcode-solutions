@@ -46,19 +46,19 @@ class Solution {
 
         return stack;
     }
-    
+
     private int[] merge(int[] a, int[] b) {
 
         int[] result = new int[a.length + b.length];
 
-        int i = 0, j = 0, p = 0;
+        int i = 0, j = 0;
 
-        while (i < a.length || j < b.length) {
+        for (int p = 0; p < result.length; p++) {
 
             if (compare(a, i, b, j) > 0) {
-                result[p++] = a[i++];
+                result[p] = a[i++];
             } else {
-                result[p++] = b[j++];
+                result[p] = b[j++];
             }
         }
 
@@ -67,16 +67,15 @@ class Solution {
 
     private int compare(int[] a, int i, int[] b, int j) {
 
-        while (i < a.length && j < b.length) {
-
-            if (a[i] != b[j]) {
-                return a[i] - b[j];
-            }
-
+        while (i < a.length && j < b.length &&
+               a[i] == b[j]) {
             i++;
             j++;
         }
 
-        return (a.length - i) - (b.length - j);
+        if (j == b.length) return 1;
+        if (i == a.length) return -1;
+
+        return a[i] - b[j];
     }
 }
