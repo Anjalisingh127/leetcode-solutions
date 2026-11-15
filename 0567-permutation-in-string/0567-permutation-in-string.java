@@ -4,29 +4,40 @@ class Solution {
         int n = s1.length();
         int m = s2.length();
 
-        if (n > m) {
-            return false;
+        if (n > m) return false;
+
+        int[] freq = new int[26];
+
+        for (char c : s1.toCharArray()) {
+            freq[c - 'a']++;
         }
 
-        int[] freq1 = new int[26];
-        int[] freq2 = new int[26];
+        int left = 0;
 
-        for (int i = 0; i < n; i++) {
-            freq1[s1.charAt(i) - 'a']++;
-            freq2[s2.charAt(i) - 'a']++;
-        }
+        for (int right = 0; right < m; right++) {
 
-        for (int i = n; i < m; i++) {
+            freq[s2.charAt(right) - 'a']--;
 
-            if (Arrays.equals(freq1, freq2)) {
-                return true;
+            if (right - left + 1 > n) {
+                freq[s2.charAt(left) - 'a']++;
+                left++;
             }
 
-            freq2[s2.charAt(i - n) - 'a']--;
+            if (right - left + 1 == n) {
 
-            freq2[s2.charAt(i) - 'a']++;
+                boolean match = true;
+
+                for (int i = 0; i < 26; i++) {
+                    if (freq[i] != 0) {
+                        match = false;
+                        break;
+                    }
+                }
+
+                if (match) return true;
+            }
         }
 
-        return Arrays.equals(freq1, freq2);
+        return false;
     }
 }
