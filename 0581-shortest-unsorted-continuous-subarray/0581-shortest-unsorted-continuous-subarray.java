@@ -2,32 +2,27 @@ class Solution {
     public int findUnsortedSubarray(int[] nums) {
 
         int n = nums.length;
-        int start = -1, end = -1;
+        int start = n, end = 0;
+        int max = Integer.MIN_VALUE;
+        int min = Integer.MAX_VALUE;
 
-        int max = nums[0];
+        for (int i = 0; i < n; i++) {
 
-        for (int i = 1; i < n; i++) {
             if (nums[i] < max) {
                 end = i;
             } else {
                 max = nums[i];
             }
-        }
 
-        int min = nums[n - 1];
+            int j = n - 1 - i;
 
-        for (int i = n - 2; i >= 0; i--) {
-            if (nums[i] > min) {
-                start = i;
+            if (nums[j] > min) {
+                start = j;
             } else {
-                min = nums[i];
+                min = nums[j];
             }
         }
 
-        if (start == -1) {
-            return 0;
-        }
-
-        return end - start + 1;
+        return end - start > 0 ? end - start + 1 : 0;
     }
 }
