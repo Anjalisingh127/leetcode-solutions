@@ -8,34 +8,35 @@ class Solution {
 
         int[] freq = new int[26];
 
-        for (char c : s1.toCharArray()) {
-            freq[c - 'a']++;
+        for (int i = 0; i < n; i++) {
+            freq[s1.charAt(i) - 'a']++;
+            freq[s2.charAt(i) - 'a']--;
         }
 
-        int left = 0;
+        int count = 0;
 
-        for (int right = 0; right < m; right++) {
+        for (int x : freq) {
+            if (x != 0) count++;
+        }
 
-            freq[s2.charAt(right) - 'a']--;
+        if (count == 0) return true;
 
-            if (right - left + 1 > n) {
-                freq[s2.charAt(left) - 'a']++;
-                left++;
-            }
+        for (int i = n; i < m; i++) {
 
-            if (right - left + 1 == n) {
+            int add = s2.charAt(i) - 'a';
+            int remove = s2.charAt(i - n) - 'a';
 
-                boolean match = true;
+            if (freq[add] == 1) count--;
+            else if (freq[add] == 0) count++;
 
-                for (int i = 0; i < 26; i++) {
-                    if (freq[i] != 0) {
-                        match = false;
-                        break;
-                    }
-                }
+            freq[add]--;
 
-                if (match) return true;
-            }
+            if (freq[remove] == -1) count--;
+            else if (freq[remove] == 0) count++;
+
+            freq[remove]++;
+
+            if (count == 0) return true;
         }
 
         return false;
