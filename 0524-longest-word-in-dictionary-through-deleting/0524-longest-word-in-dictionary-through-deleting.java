@@ -1,7 +1,13 @@
+
 class Solution {
     public String findLongestWord(String s, List<String> dictionary) {
 
-        String ans = "";
+        Collections.sort(dictionary, (a, b) -> {
+            if (a.length() != b.length()) {
+                return b.length() - a.length();
+            }
+            return a.compareTo(b);
+        });
 
         for (String word : dictionary) {
 
@@ -17,16 +23,10 @@ class Solution {
             }
 
             if (j == word.length()) {
-
-                if (word.length() > ans.length() ||
-                   (word.length() == ans.length() &&
-                    word.compareTo(ans) < 0)) {
-
-                    ans = word;
-                }
+                return word;
             }
         }
 
-        return ans;
+        return "";
     }
 }
