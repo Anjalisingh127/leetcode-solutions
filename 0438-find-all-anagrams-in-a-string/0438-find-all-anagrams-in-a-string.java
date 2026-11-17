@@ -15,16 +15,28 @@ class Solution {
             freq[s.charAt(i) - 'a']--;
         }
 
-        if (Arrays.stream(freq).allMatch(x -> x == 0)) {
-            ans.add(0);
+        int matches = 0;
+
+        for (int count : freq) {
+            if (count == 0) matches++;
         }
+
+        if (matches == 26) ans.add(0);
 
         for (int i = m; i < n; i++) {
 
-            freq[s.charAt(i - m) - 'a']++;
-            freq[s.charAt(i) - 'a']--;
+            int out = s.charAt(i - m) - 'a';
+            int in = s.charAt(i) - 'a';
 
-            if (Arrays.stream(freq).allMatch(x -> x == 0)) {
+            if (freq[out] == 0) matches--;
+            freq[out]++;
+            if (freq[out] == 0) matches++;
+
+            if (freq[in] == 0) matches--;
+            freq[in]--;
+            if (freq[in] == 0) matches++;
+
+            if (matches == 26) {
                 ans.add(i - m + 1);
             }
         }
