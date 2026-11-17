@@ -8,21 +8,26 @@ class Solution {
 
         if (m > n) return ans;
 
-        for (int i = 0; i <= n - m; i++) {
+        int[] freq = new int[26];
+        int[] window = new int[26];
 
-            int[] freq1 = new int[26];
-            int[] freq2 = new int[26];
+        for (int i = 0; i < m; i++) {
+            freq[p.charAt(i) - 'a']++;
+            window[s.charAt(i) - 'a']++;
+        }
 
-            for (int j = 0; j < m; j++) {
-                freq1[p.charAt(j) - 'a']++;
-            }
+        if (Arrays.equals(freq, window)) {
+            ans.add(0);
+        }
+        
+        for (int i = m; i < n; i++) {
 
-            for (int j = i; j < i + m; j++) {
-                freq2[s.charAt(j) - 'a']++;
-            }
+            window[s.charAt(i - m) - 'a']--;
 
-            if (Arrays.equals(freq1, freq2)) {
-                ans.add(i);
+            window[s.charAt(i) - 'a']++;
+
+            if (Arrays.equals(freq, window)) {
+                ans.add(i - m + 1);
             }
         }
 
