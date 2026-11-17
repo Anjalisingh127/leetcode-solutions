@@ -9,24 +9,22 @@ class Solution {
         if (m > n) return ans;
 
         int[] freq = new int[26];
-        int[] window = new int[26];
 
         for (int i = 0; i < m; i++) {
             freq[p.charAt(i) - 'a']++;
-            window[s.charAt(i) - 'a']++;
+            freq[s.charAt(i) - 'a']--;
         }
 
-        if (Arrays.equals(freq, window)) {
+        if (Arrays.stream(freq).allMatch(x -> x == 0)) {
             ans.add(0);
         }
-        
+
         for (int i = m; i < n; i++) {
 
-            window[s.charAt(i - m) - 'a']--;
+            freq[s.charAt(i - m) - 'a']++;
+            freq[s.charAt(i) - 'a']--;
 
-            window[s.charAt(i) - 'a']++;
-
-            if (Arrays.equals(freq, window)) {
+            if (Arrays.stream(freq).allMatch(x -> x == 0)) {
                 ans.add(i - m + 1);
             }
         }
