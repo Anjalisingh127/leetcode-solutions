@@ -102,6 +102,7 @@ leetcode-solutions/
 | [1338-reduce-array-size-to-the-half](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/1338-reduce-array-size-to-the-half/) | Medium |
 | [1346-check-if-n-and-its-double-exist](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/1346-check-if-n-and-its-double-exist/) | Easy |
 | [1464-maximum-product-of-two-elements-in-an-array](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/1464-maximum-product-of-two-elements-in-an-array/) | Easy |
+| [1984-minimum-difference-between-highest-and-lowest-of-k-scores](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/1984-minimum-difference-between-highest-and-lowest-of-k-scores/) | Easy |
 | [2099-find-subsequence-of-length-k-with-the-largest-sum](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/2099-find-subsequence-of-length-k-with-the-largest-sum/) | Easy |
 | [2261-k-divisible-elements-subarrays](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/2261-k-divisible-elements-subarrays/) | Medium |
 | [2357-make-array-zero-by-subtracting-equal-amounts](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/2357-make-array-zero-by-subtracting-equal-amounts/) | Easy |
@@ -226,6 +227,7 @@ leetcode-solutions/
 | [1338-reduce-array-size-to-the-half](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/1338-reduce-array-size-to-the-half/) | Medium |
 | [1346-check-if-n-and-its-double-exist](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/1346-check-if-n-and-its-double-exist/) | Easy |
 | [1464-maximum-product-of-two-elements-in-an-array](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/1464-maximum-product-of-two-elements-in-an-array/) | Easy |
+| [1984-minimum-difference-between-highest-and-lowest-of-k-scores](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/1984-minimum-difference-between-highest-and-lowest-of-k-scores/) | Easy |
 | [2099-find-subsequence-of-length-k-with-the-largest-sum](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/2099-find-subsequence-of-length-k-with-the-largest-sum/) | Easy |
 | [2231-largest-number-after-digit-swaps-by-parity](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/2231-largest-number-after-digit-swaps-by-parity/) | Easy |
 | [2357-make-array-zero-by-subtracting-equal-amounts](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/2357-make-array-zero-by-subtracting-equal-amounts/) | Easy |
@@ -526,6 +528,7 @@ leetcode-solutions/
 | [0594-longest-harmonious-subsequence](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0594-longest-harmonious-subsequence/) | Easy |
 | [0658-find-k-closest-elements](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0658-find-k-closest-elements/) | Medium |
 | [0718-maximum-length-of-repeated-subarray](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0718-maximum-length-of-repeated-subarray/) | Medium |
+| [1984-minimum-difference-between-highest-and-lowest-of-k-scores](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/1984-minimum-difference-between-highest-and-lowest-of-k-scores/) | Easy |
 | [3318-find-x-sum-of-all-k-long-subarrays-i](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/3318-find-x-sum-of-all-k-long-subarrays-i/) | Easy |
 ## Backtracking
 | Problem Name | Difficulty |
