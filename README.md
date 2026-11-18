@@ -69,6 +69,7 @@ leetcode-solutions/
 | [0128-longest-consecutive-sequence](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0128-longest-consecutive-sequence/) | Medium |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0167-two-sum-ii-input-array-is-sorted/) | Medium |
 | [0179-largest-number](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0179-largest-number/) | Medium |
+| [0209-minimum-size-subarray-sum](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0209-minimum-size-subarray-sum/) | Medium |
 | [0215-kth-largest-element-in-an-array](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0215-kth-largest-element-in-an-array/) | Medium |
 | [0219-contains-duplicate-ii](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0219-contains-duplicate-ii/) | Easy |
 | [0239-sliding-window-maximum](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0239-sliding-window-maximum/) | Hard |
@@ -355,6 +356,7 @@ leetcode-solutions/
 ## Prefix Sum
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0209-minimum-size-subarray-sum](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0209-minimum-size-subarray-sum/) | Medium |
 | [0523-continuous-subarray-sum](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0523-continuous-subarray-sum/) | Medium |
 | [0560-subarray-sum-equals-k](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0560-subarray-sum-equals-k/) | Medium |
 ## Pigeonhole Principle
@@ -421,6 +423,7 @@ leetcode-solutions/
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0167-two-sum-ii-input-array-is-sorted/) | Medium |
+| [0209-minimum-size-subarray-sum](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0209-minimum-size-subarray-sum/) | Medium |
 | [0287-find-the-duplicate-number](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0287-find-the-duplicate-number/) | Medium |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0378-kth-smallest-element-in-a-sorted-matrix/) | Medium |
 | [0532-k-diff-pairs-in-an-array](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0532-k-diff-pairs-in-an-array/) | Medium |
@@ -521,6 +524,7 @@ leetcode-solutions/
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0187-repeated-dna-sequences](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0187-repeated-dna-sequences/) | Medium |
+| [0209-minimum-size-subarray-sum](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0209-minimum-size-subarray-sum/) | Medium |
 | [0219-contains-duplicate-ii](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0219-contains-duplicate-ii/) | Easy |
 | [0239-sliding-window-maximum](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0239-sliding-window-maximum/) | Hard |
 | [0438-find-all-anagrams-in-a-string](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0438-find-all-anagrams-in-a-string/) | Medium |
