@@ -112,6 +112,7 @@ leetcode-solutions/
 | [3034-number-of-subarrays-that-match-a-pattern-i](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/3034-number-of-subarrays-that-match-a-pattern-i/) | Medium |
 | [3042-count-prefix-and-suffix-pairs-i](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/3042-count-prefix-and-suffix-pairs-i/) | Easy |
 | [3318-find-x-sum-of-all-k-long-subarrays-i](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/3318-find-x-sum-of-all-k-long-subarrays-i/) | Easy |
+| [3364-minimum-positive-sum-subarray](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/3364-minimum-positive-sum-subarray/) | Easy |
 ## Hash Table
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -359,6 +360,7 @@ leetcode-solutions/
 | [0209-minimum-size-subarray-sum](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0209-minimum-size-subarray-sum/) | Medium |
 | [0523-continuous-subarray-sum](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0523-continuous-subarray-sum/) | Medium |
 | [0560-subarray-sum-equals-k](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0560-subarray-sum-equals-k/) | Medium |
+| [3364-minimum-positive-sum-subarray](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/3364-minimum-positive-sum-subarray/) | Easy |
 ## Pigeonhole Principle
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -534,6 +536,7 @@ leetcode-solutions/
 | [0718-maximum-length-of-repeated-subarray](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0718-maximum-length-of-repeated-subarray/) | Medium |
 | [1984-minimum-difference-between-highest-and-lowest-of-k-scores](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/1984-minimum-difference-between-highest-and-lowest-of-k-scores/) | Easy |
 | [3318-find-x-sum-of-all-k-long-subarrays-i](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/3318-find-x-sum-of-all-k-long-subarrays-i/) | Easy |
+| [3364-minimum-positive-sum-subarray](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/3364-minimum-positive-sum-subarray/) | Easy |
 ## Backtracking
 | Problem Name | Difficulty |
 | ------- | ------- |
