@@ -1,25 +1,41 @@
 class Solution {
     public int minimumSumSubarray(List<Integer> nums, int l, int r) {
         int n = nums.size();
-        int[] prefix = new int[n + 1];
+
+        long[] prefix = new long[n + 1];
 
         for (int i = 0; i < n; i++) {
             prefix[i + 1] = prefix[i] + nums.get(i);
         }
 
-        int minSum = Integer.MAX_VALUE;
+        TreeMap<Long, Integer> map = new TreeMap<>();
 
-        for (int i = 0; i < n; i++) {
-            for (int len = l; len <= r && i + len <= n; len++) {
+        long minSum = Long.MAX_VALUE;
 
-                int sum = prefix[i + len] - prefix[i];
+        for (int j = l; j <= n; j++) {
 
-                if (sum > 0) {
-                    minSum = Math.min(minSum, sum);
+            long add = prefix[j - l];
+            map.put(add, map.getOrDefault(add, 0) + 1);
+
+            int removeIndex = j - r - 1;
+
+            if (removeIndex >= 0) {
+                long remove = prefix[removeIndex];
+
+                if (map.get(remove) == 1) {
+                    map.remove(remove);
+                } else {
+                    map.put(remove, map.get(remove) - 1);
                 }
+            }
+
+            Long key = map.lowerKey(prefix[j]);
+
+            if (key != null) {
+                minSum = Math.min(minSum, prefix[j] - key);
             }
         }
 
-        return minSum == Integer.MAX_VALUE ? -1 : minSum;
+        return minSum == Long.MAX_VALUE ? -1 : (int) minSum;
     }
 }
