@@ -112,6 +112,7 @@ leetcode-solutions/
 | [2357-make-array-zero-by-subtracting-equal-amounts](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/2357-make-array-zero-by-subtracting-equal-amounts/) | Easy |
 | [2500-delete-greatest-value-in-each-row](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/2500-delete-greatest-value-in-each-row/) | Easy |
 | [2762-continuous-subarrays](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/2762-continuous-subarrays/) | Medium |
+| [2962-count-subarrays-where-max-element-appears-at-least-k-times](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/2962-count-subarrays-where-max-element-appears-at-least-k-times/) | Medium |
 | [2974-minimum-number-game](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/2974-minimum-number-game/) | Easy |
 | [3034-number-of-subarrays-that-match-a-pattern-i](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/3034-number-of-subarrays-that-match-a-pattern-i/) | Medium |
 | [3042-count-prefix-and-suffix-pairs-i](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/3042-count-prefix-and-suffix-pairs-i/) | Easy |
@@ -547,6 +548,7 @@ leetcode-solutions/
 | [0904-fruit-into-baskets](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0904-fruit-into-baskets/) | Medium |
 | [1984-minimum-difference-between-highest-and-lowest-of-k-scores](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/1984-minimum-difference-between-highest-and-lowest-of-k-scores/) | Easy |
 | [2762-continuous-subarrays](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/2762-continuous-subarrays/) | Medium |
+| [2962-count-subarrays-where-max-element-appears-at-least-k-times](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/2962-count-subarrays-where-max-element-appears-at-least-k-times/) | Medium |
 | [3318-find-x-sum-of-all-k-long-subarrays-i](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/3318-find-x-sum-of-all-k-long-subarrays-i/) | Easy |
 | [3364-minimum-positive-sum-subarray](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/3364-minimum-positive-sum-subarray/) | Easy |
 ## Backtracking
