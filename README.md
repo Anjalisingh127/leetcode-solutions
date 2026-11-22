@@ -102,6 +102,7 @@ leetcode-solutions/
 | [0912-sort-an-array](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0912-sort-an-array/) | Medium |
 | [0977-squares-of-a-sorted-array](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0977-squares-of-a-sorted-array/) | Easy |
 | [1089-duplicate-zeros](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/1089-duplicate-zeros/) | Easy |
+| [1248-count-number-of-nice-subarrays](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/1248-count-number-of-nice-subarrays/) | Medium |
 | [1337-the-k-weakest-rows-in-a-matrix](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/1337-the-k-weakest-rows-in-a-matrix/) | Easy |
 | [1338-reduce-array-size-to-the-half](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/1338-reduce-array-size-to-the-half/) | Medium |
 | [1346-check-if-n-and-its-double-exist](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/1346-check-if-n-and-its-double-exist/) | Easy |
@@ -148,6 +149,7 @@ leetcode-solutions/
 | [0705-design-hashset](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0705-design-hashset/) | Easy |
 | [0706-design-hashmap](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0706-design-hashmap/) | Easy |
 | [0904-fruit-into-baskets](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0904-fruit-into-baskets/) | Medium |
+| [1248-count-number-of-nice-subarrays](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/1248-count-number-of-nice-subarrays/) | Medium |
 | [1338-reduce-array-size-to-the-half](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/1338-reduce-array-size-to-the-half/) | Medium |
 | [1346-check-if-n-and-its-double-exist](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/1346-check-if-n-and-its-double-exist/) | Easy |
 | [2099-find-subsequence-of-length-k-with-the-largest-sum](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/2099-find-subsequence-of-length-k-with-the-largest-sum/) | Easy |
@@ -361,6 +363,7 @@ leetcode-solutions/
 | [0264-ugly-number-ii](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0264-ugly-number-ii/) | Medium |
 | [0523-continuous-subarray-sum](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0523-continuous-subarray-sum/) | Medium |
 | [0633-sum-of-square-numbers](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0633-sum-of-square-numbers/) | Medium |
+| [1248-count-number-of-nice-subarrays](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/1248-count-number-of-nice-subarrays/) | Medium |
 ## Prefix Sum
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -368,6 +371,7 @@ leetcode-solutions/
 | [0523-continuous-subarray-sum](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0523-continuous-subarray-sum/) | Medium |
 | [0560-subarray-sum-equals-k](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0560-subarray-sum-equals-k/) | Medium |
 | [0713-subarray-product-less-than-k](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0713-subarray-product-less-than-k/) | Medium |
+| [1248-count-number-of-nice-subarrays](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/1248-count-number-of-nice-subarrays/) | Medium |
 | [3364-minimum-positive-sum-subarray](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/3364-minimum-positive-sum-subarray/) | Easy |
 ## Pigeonhole Principle
 | Problem Name | Difficulty |
@@ -546,6 +550,7 @@ leetcode-solutions/
 | [0713-subarray-product-less-than-k](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0713-subarray-product-less-than-k/) | Medium |
 | [0718-maximum-length-of-repeated-subarray](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0718-maximum-length-of-repeated-subarray/) | Medium |
 | [0904-fruit-into-baskets](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0904-fruit-into-baskets/) | Medium |
+| [1248-count-number-of-nice-subarrays](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/1248-count-number-of-nice-subarrays/) | Medium |
 | [1984-minimum-difference-between-highest-and-lowest-of-k-scores](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/1984-minimum-difference-between-highest-and-lowest-of-k-scores/) | Easy |
 | [2762-continuous-subarrays](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/2762-continuous-subarrays/) | Medium |
 | [2962-count-subarrays-where-max-element-appears-at-least-k-times](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/2962-count-subarrays-where-max-element-appears-at-least-k-times/) | Medium |
