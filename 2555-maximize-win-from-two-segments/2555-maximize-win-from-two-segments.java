@@ -2,39 +2,24 @@ class Solution {
     public int maximizeWin(int[] prizePositions, int k) {
         int n = prizePositions.length;
 
-        int[] prefix = new int[n + 1];
+        int[] dp = new int[n + 1];
 
+        int left = 0;
         int ans = 0;
 
-        for (int i = 0; i < n; i++) {
+        for (int right = 0; right < n; right++) {
 
-            int left = lowerBound(prizePositions,
-                                  prizePositions[i] - k);
+            while (prizePositions[right] - prizePositions[left] > k) {
+                left++;
+            }
 
-            int count = i - left + 1;
+            int count = right - left + 1;
 
-            ans = Math.max(ans, count + prefix[left]);
+            ans = Math.max(ans, count + dp[left]);
 
-            prefix[i + 1] = Math.max(prefix[i], count);
+            dp[right + 1] = Math.max(dp[right], count);
         }
 
         return ans;
-    }
-
-    private int lowerBound(int[] arr, int target) {
-        int low = 0;
-        int high = arr.length;
-
-        while (low < high) {
-            int mid = low + (high - low) / 2;
-
-            if (arr[mid] < target) {
-                low = mid + 1;
-            } else {
-                high = mid;
-            }
-        }
-
-        return low;
     }
 }
