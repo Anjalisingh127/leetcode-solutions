@@ -112,6 +112,7 @@ leetcode-solutions/
 | [2261-k-divisible-elements-subarrays](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/2261-k-divisible-elements-subarrays/) | Medium |
 | [2357-make-array-zero-by-subtracting-equal-amounts](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/2357-make-array-zero-by-subtracting-equal-amounts/) | Easy |
 | [2500-delete-greatest-value-in-each-row](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/2500-delete-greatest-value-in-each-row/) | Easy |
+| [2555-maximize-win-from-two-segments](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/2555-maximize-win-from-two-segments/) | Medium |
 | [2762-continuous-subarrays](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/2762-continuous-subarrays/) | Medium |
 | [2962-count-subarrays-where-max-element-appears-at-least-k-times](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/2962-count-subarrays-where-max-element-appears-at-least-k-times/) | Medium |
 | [2974-minimum-number-game](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/2974-minimum-number-game/) | Easy |
@@ -448,6 +449,7 @@ leetcode-solutions/
 | [0718-maximum-length-of-repeated-subarray](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0718-maximum-length-of-repeated-subarray/) | Medium |
 | [1337-the-k-weakest-rows-in-a-matrix](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/1337-the-k-weakest-rows-in-a-matrix/) | Easy |
 | [1346-check-if-n-and-its-double-exist](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/1346-check-if-n-and-its-double-exist/) | Easy |
+| [2555-maximize-win-from-two-segments](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/2555-maximize-win-from-two-segments/) | Medium |
 ## Bit Manipulation
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -552,6 +554,7 @@ leetcode-solutions/
 | [0904-fruit-into-baskets](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0904-fruit-into-baskets/) | Medium |
 | [1248-count-number-of-nice-subarrays](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/1248-count-number-of-nice-subarrays/) | Medium |
 | [1984-minimum-difference-between-highest-and-lowest-of-k-scores](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/1984-minimum-difference-between-highest-and-lowest-of-k-scores/) | Easy |
+| [2555-maximize-win-from-two-segments](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/2555-maximize-win-from-two-segments/) | Medium |
 | [2762-continuous-subarrays](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/2762-continuous-subarrays/) | Medium |
 | [2962-count-subarrays-where-max-element-appears-at-least-k-times](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/2962-count-subarrays-where-max-element-appears-at-least-k-times/) | Medium |
 | [3318-find-x-sum-of-all-k-long-subarrays-i](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/3318-find-x-sum-of-all-k-long-subarrays-i/) | Easy |
