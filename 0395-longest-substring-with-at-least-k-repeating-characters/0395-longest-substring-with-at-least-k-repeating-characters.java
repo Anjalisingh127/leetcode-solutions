@@ -1,33 +1,30 @@
 class Solution {
     public int longestSubstring(String s, int k) {
-        int n = s.length();
-        int ans = 0;
 
-        for (int i = 0; i < n; i++) {
+        if (s.length() < k) {
+            return 0;
+        }
 
-            HashMap<Character, Integer> map = new HashMap<>();
+        int[] freq = new int[26];
 
-            for (int j = i; j < n; j++) {
+        for (char ch : s.toCharArray()) {
+            freq[ch - 'a']++;
+        }
 
-                char ch = s.charAt(j);
+        for (int i = 0; i < s.length(); i++) {
 
-                map.put(ch, map.getOrDefault(ch, 0) + 1);
+            if (freq[s.charAt(i) - 'a'] < k) {
 
-                boolean valid = true;
+                String left = s.substring(0, i);
+                String right = s.substring(i + 1);
 
-                for (int freq : map.values()) {
-                    if (freq < k) {
-                        valid = false;
-                        break;
-                    }
-                }
-
-                if (valid) {
-                    ans = Math.max(ans, j - i + 1);
-                }
+                return Math.max(
+                    longestSubstring(left, k),
+                    longestSubstring(right, k)
+                );
             }
         }
 
-        return ans;
+        return s.length();
     }
 }
