@@ -1,30 +1,60 @@
 class Solution {
     public int longestSubstring(String s, int k) {
 
-        if (s.length() < k) {
-            return 0;
-        }
+        int n = s.length();
+        int ans = 0;
 
-        int[] freq = new int[26];
+        for (int target = 1; target <= 26; target++) {
 
-        for (char ch : s.toCharArray()) {
-            freq[ch - 'a']++;
-        }
+            int[] freq = new int[26];
 
-        for (int i = 0; i < s.length(); i++) {
+            int left = 0;
+            int right = 0;
 
-            if (freq[s.charAt(i) - 'a'] < k) {
+            int unique = 0;
+            int countK = 0;
 
-                String left = s.substring(0, i);
-                String right = s.substring(i + 1);
+            while (right < n) {
+                if (unique <= target) {
 
-                return Math.max(
-                    longestSubstring(left, k),
-                    longestSubstring(right, k)
-                );
+                    int idx = s.charAt(right) - 'a';
+
+                    if (freq[idx] == 0) {
+                        unique++;
+                    }
+
+                    freq[idx]++;
+
+                    if (freq[idx] == k) {
+                        countK++;
+                    }
+
+                    right++;
+                }
+
+                else {
+
+                    int idx = s.charAt(left) - 'a';
+
+                    if (freq[idx] == k) {
+                        countK--;
+                    }
+
+                    freq[idx]--;
+
+                    if (freq[idx] == 0) {
+                        unique--;
+                    }
+
+                    left++;
+                }
+
+                if (unique == target && unique == countK) {
+                    ans = Math.max(ans, right - left);
+                }
             }
         }
 
-        return s.length();
+        return ans;
     }
 }
