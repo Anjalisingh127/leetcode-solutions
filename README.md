@@ -122,6 +122,7 @@ leetcode-solutions/
 | [3042-count-prefix-and-suffix-pairs-i](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/3042-count-prefix-and-suffix-pairs-i/) | Easy |
 | [3318-find-x-sum-of-all-k-long-subarrays-i](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/3318-find-x-sum-of-all-k-long-subarrays-i/) | Easy |
 | [3364-minimum-positive-sum-subarray](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/3364-minimum-positive-sum-subarray/) | Easy |
+| [3652-best-time-to-buy-and-sell-stock-using-strategy](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/3652-best-time-to-buy-and-sell-stock-using-strategy/) | Medium |
 ## Hash Table
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -380,6 +381,7 @@ leetcode-solutions/
 | [0713-subarray-product-less-than-k](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/0713-subarray-product-less-than-k/) | Medium |
 | [1248-count-number-of-nice-subarrays](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/1248-count-number-of-nice-subarrays/) | Medium |
 | [3364-minimum-positive-sum-subarray](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/3364-minimum-positive-sum-subarray/) | Easy |
+| [3652-best-time-to-buy-and-sell-stock-using-strategy](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/3652-best-time-to-buy-and-sell-stock-using-strategy/) | Medium |
 ## Pigeonhole Principle
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -570,6 +572,7 @@ leetcode-solutions/
 | [2962-count-subarrays-where-max-element-appears-at-least-k-times](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/2962-count-subarrays-where-max-element-appears-at-least-k-times/) | Medium |
 | [3318-find-x-sum-of-all-k-long-subarrays-i](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/3318-find-x-sum-of-all-k-long-subarrays-i/) | Easy |
 | [3364-minimum-positive-sum-subarray](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/3364-minimum-positive-sum-subarray/) | Easy |
+| [3652-best-time-to-buy-and-sell-stock-using-strategy](https://github.com/Anjalisingh127/leetcode-solutions/tree/main/3652-best-time-to-buy-and-sell-stock-using-strategy/) | Medium |
 ## Backtracking
 | Problem Name | Difficulty |
 | ------- | ------- |
